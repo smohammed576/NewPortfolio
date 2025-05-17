@@ -1,0 +1,424 @@
+{
+    "about": "I am a student software developer at Mediacollege Amsterdam. I am currently on my first internship where I got to build my first API and learned .NET. I have experience with languages such as ReactJS, SCSS, Laravel, React Native, PHP, Javascript. I love working with ReactJS and Laravel, combined and separately. Because of my fulltime internship I haven't really worked on personal projects, which is why there aren't a lot of commits of the last few months on my GitHub.",
+    "projects": [
+        {
+            "title": "Movie Discovery Site",
+            "year": 2,
+            "image": "./images/laravelmain.png",
+            "description": "This is my first Laravel project ever. This was a school project and the assignment was to build a blog using Laravel and Tailwind by following a tutorial made by our teacher. The point of this assignment was to learn the basics of Laravel and Tailwind. Instead of a blog, I made a website that allows you to log and rate movies. The reason I made this instead of the blog was because I love movies and I found this way more interesting than a simple blog.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/M7PROG-Laravel"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://movies.saramohammed.com/"
+                }
+            ],
+            "languages": ["LARAVEL", "TAILWIND", "PHP"]
+        },
+        {
+            "title": "Social Media",
+            "year": 2,
+            "image": "./images/image.png",
+            "description": "This was a school assignment. The assignment was to make a clone of a social media website and use the styling of another social media website and create an infinite scroll function. I chose Discord with Instagram styling, I chose those because I like the colortheme of Instagram and I thought a Discord clone would be fun. There wasn't much thought behind it. The website turned out pretty good, I am proud of it. I made my own JSON file instead of using a tool to create a JSON file for me, I did this because this way I could use my own data and make the assignment more fun for me. If it were a JSON file filled with random people, I probably wouldn't have had any fun with making this project.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/M7-BO/tree/main/Social%20Media"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://34916.hosts2.ma-cloud.nl/socialMedia/"
+                }
+            ],
+            "languages": ["HTML", "SCSS", "JAVASCRIPT"]
+        },
+        {
+            "title": "Travels",
+            "year": 31,
+            "image": "https://stageblog.saramohammed.com/uploads/dIvTSUFcp6rBRVTfiti1XmnycVOpsnpgokWymQUD.png",
+            "description": "This is a project I made during my internship. I got this assignment because I had never used .NET in my life and I had to get familiar with it before I moved on to other projects. I had to make a website that recommends users vacation spots based on their preferences. They fill in when they want to go on vacation and what kind of vacation they're looking for. For example a sightseeing vacation in September. After that they'd press on the submit button and get vacation spots that fit their preferences the best. I made this work by building my own API, which by the way was also something I had never done before. I made an authentication system and that would allow the users to be able to sign and out. This is because once you're signed in, you can save the vacation spots you like and you could find them back on the favorites page. This is a project I am very proud of. I made this website on my own and it was honestly really fun to make. There are no links to the GitHub or the live version.",
+            "languages": ["REACT", "DOTNET", "SCSS"]
+        },
+        {
+            "title": "POGO Webshop",
+            "year": 1,
+            "image": "./images/Screenshot (101).png",
+            "description": "This is my first webshop. I made this in my first year and this was my final project. The assignment was to make a webshop using the styling of another popular webshop. We didn't get to chose the webshop ourselves, the teachers chose randomly for everybody. I got HEMA, which was a relief because some of the other students got webshops that have, no offense, pretty ugly styling. I am very proud of this project, it's definitely not my best work but for someone who barely knew anything about coding, this was pretty great.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/BO.M4-POGO"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://34916.hosts2.ma-cloud.nl/pogo/"
+                }
+            ],
+            "languages": ["HTML", "CSS", "JAVASCRIPT"]
+        },
+        {
+            "title": "Music Library",
+            "year": 3,
+            "image":"./images/music.png",
+            "description": "This is my first React project ever. We all got a list at school with projects to chose from and the assignment was to create the chosen project with React. I chose for the Music Library project. I had never used React before this and it was pretty hard to start with the project but as soon as I kinda got the hang of it, it went pretty well. I enjoyed making this project and it caused me to also make few other projects on the list. I am pretty proud of this project, although looking at the code of this project now makes me wanna cry. I have much more experience in React now and I could make this project so much better now but for someone who had never used React before in her life, this is pretty good.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/M9Skills/tree/main/music/music"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://music.saramohammed.com/"
+                }
+            ],
+            "languages": ["REACT", "SCSS"]
+        },
+        {
+            "title": "Pokedex",
+            "year": 3,
+            "image": "./images/pokedex.png",
+            "description": "I made this project after the Music Library assignment. I was really new with React and enjoyed making the music library and wanted to learn more about React. So that is when I decided to make this project also. It is basically a dashboard where you can look up Pokemons and it returns information about the Pokemon you looked up. This was also another fun project, I didn't have to do this but I am glad I did.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/M9Skills/tree/main/pokedex"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://pokedex.saramohammed.com/"
+                }
+            ],
+            "languages": ["REACT", "SCSS"]
+        },
+        {
+            "title": "Weather",
+            "year": 3,
+            "image": "./images/weather.png",
+            "description": "This is another React project that was on the list with projects from school. I made this project after the Music Library and Pokedex. I was really new to React and wanted to learn more about it. You can look up cities and it will return the weather and time of the location. It also shows you a weather forecast for the next few days and it also says at what time the sun sets or rises. The color theme changes when it's after sunset at the location, that was just a fun extra thing I added to the project.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/M9Skills/tree/main/weather"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://weather.saramohammed.com"
+                }
+            ],
+            "languages": ["REACT", "SCSS"]
+        },
+        {
+            "title": "Banky",
+            "year": 2,
+            "image": "./images/banky.png",
+            "description": "A banking app made for a school project. This assignment was basically just making a website that shows you your bankstatement and spendings and such. I ofcourse used fake data. It has a few animations and a blurring function and you can switch between accounts. Overall a cute little project, nothing special.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/M7-FLEX/tree/main/Banky"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://34916.hosts2.ma-cloud.nl/Banky/"
+                }
+            ],
+            "languages": ["HTML", "SCSS", "JAVASCRIPT"]
+        },
+        {
+            "title": "Showcase",
+            "year": 2,
+            "image": "./images/showcase.png",
+            "description": "This was for an assignment at school in the beginning of my second year. The assignment was to make an application were you can type in anything in the input and it displays the input in three different fonts. You can also mark one font as your favorite. The application also has a dark and light mode and there are a few animations in the application. I like my styling for this applications, the colors are really pretty and look good together.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/PROGM5.FE/tree/main/Opdracht%203"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://34916.hosts2.ma-cloud.nl/progm503/"
+                }
+            ],
+            "languages": ["HTML", "SCSS", "JAVASCRIPT"]
+        },
+        {
+            "title": "Calendar",
+            "year": 2,
+            "image": "./images/calendar.png",
+            "description": "This is a working calendar application I made for a school assignment. We had to make a calendar that shows you what day it is today and show you what kind of weekday. You can also see other months and how many days that month has plus what day is on what weekday. I made this application in mijn second year and it was kind of a hard assignment. I am pretty proud of this project, it's not something special but it's still kinda cool.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/M7-BO/tree/main/Calender"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://34916.hosts2.ma-cloud.nl/calendar/"
+                }
+            ],
+            "languages": ["HTML", "SCSS", "JAVASCRIPT"]
+        },
+        {
+            "title": "Encrypter & Decrypter",
+            "year": 2,
+            "image": "./images/encryptdecrypt.png",
+            "description": "This is a small project I made in my second year, it's an application where you can type in any sentence or word and it encrypts it for you. This way the text you typed in the input is unreadable by people that don't have access to this tool. You can also decrypt text by using the other side of the application. You just paste your text in the input and press on the submit button and the application decrypts your text for you.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/Home-Projects/tree/main/Encrypter%20%26%20Decrypter"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://34916.hosts2.ma-cloud.nl/homeprojects/Encrypter%20&%20Decrypter/"
+                }
+            ],
+            "languages": ["HTML", "SCSS", "JAVASCRIPT"]
+        },
+        {
+            "title": "Colors",
+            "year": 2,
+            "image": "./images/colors.png",
+            "description": "This was a school assignment in my second year. We had to make an application that generates 100 random colors using Javascript and add animations using SCSS. You can click on a color you like and the application will copy the hsl code for you. The colors change everytime you refresh the application.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/M7-FLEX/tree/main/Les%202%20Colors"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://34916.hosts2.ma-cloud.nl/flex/Colors/"
+                }
+            ],
+            "languages": ["HTML", "SCSS", "JAVASCRIPT"]
+        },
+        {
+            "title": "SCSS Art",
+            "year": 2,
+            "image": "./images/cssart.png",
+            "description": "For this school assignment we had to make art using SCSS. I was pretty new to SCSS so it was kind of a challenge but I think the final product is pretty good and I am proud of it. We weren't allowed to use Javascript unless we absolutely have to. It also has an animation. I had fun making this project and my teacher liked it very much.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/PROGM5.FE/tree/main/Opdracht%204"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://34916.hosts2.ma-cloud.nl/cssart/"
+                }
+            ],
+            "languages": ["HTML", "SCSS"]
+        },
+        {
+            "title": "Cookie clicker",
+            "year": 2,
+            "image": "./images/cookie.png",
+            "description": "I made a cookie clicker with Javascript. It has animations and all kinds of functions like Multiplier and Auto-score. I made this application a while back so I don't remember every function but it's still a pretty cool project.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/Home-Projects/tree/main/Cookie%20Clicker"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://34916.hosts2.ma-cloud.nl/homeprojects/Cookie%20Clicker"
+                }
+            ],
+            "languages": ["HTML", "SCSS", "JAVASCRIPT"]
+        },
+        {
+            "title": "Intertoys clone",
+            "year": 3,
+            "image": "./images/intertoys.png",
+            "description": "This is just a quick little project I made at home. I was bored and had nothing to do so I decided to make a clone of the Intertoys website. I was also going to make it functional, so you could go to different pages and click on buttons but I never ended up doing that. But still, it does look pretty good.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/Home-Projects/tree/main/Intertoys%20Clone"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://34916.hosts2.ma-cloud.nl/homeprojects/Intertoys%20Clone"
+                }
+            ],
+            "languages": ["HTML", "SCSS", "JAVASCRIPT"] 
+        },
+        {
+            "title": "Wordpress",
+            "year": 2,
+            "image": "./images/wordpress.png",
+            "description": "This was a school project at the end of my second year. We had to make a website using Wordpress for the first time. There were a few groups with all different assignments and I was in the group that had to make a website where student Software and Game developers can post their projects. Even though we were assigned to groups, we all had to make our own website. I had no knowledge about Wordpress whatsoever and honestly, I also had no desire to change that. But I did make the project and it's not finished and there are a lot of placeholders on the website but I think for my first Wordpress project it's pretty decent.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/M8PROG-Wordpress"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://34916.hosts2.ma-cloud.nl/m8prog/"
+                }
+            ],
+            "languages": ["WORDPRESS", "SCSS"] 
+        }
+    ],
+    "movies": [
+        {
+            "id": 10000,
+            "title": "test"
+        },
+        {
+            "id": 0,
+            "title": "Girl, Interrupted",
+            "image": "./images/u.jpg",
+            "year": 1999
+        },
+        {
+            "id": 1,
+            "title": "Pulp Fiction",
+            "image": "./images/pulpfiction.webp",
+            "year": 1994
+        },
+        {
+            "id": 2,
+            "title": "The Amazing Spider-Man",
+            "image": "./images/spiderman.webp",
+            "year": 2012
+        },
+        {
+            "id": 3,
+            "title": "Hackers",
+            "image": "./images/hackers.webp",
+            "year": 1995
+        },
+        {
+            "id": 4,
+            "title": "Bottoms",
+            "image": "./images/bottoms.webp",
+            "year": 2023
+        },
+        {
+            "id": 5,
+            "title": "Back To The Future",
+            "image": "./images/backtothefuture.webp",
+            "year": 1989
+        },
+        {
+            "id": 6,
+            "title": "Mean Girls",
+            "image": "./images/meangirls.webp",
+            "year": 2004
+        },
+        {
+            "id": 7,
+            "title": "Black Swan",
+            "image": "./images/swan.webp",
+            "year": 2010
+        },
+        {
+            "id": 8,
+            "title": "Edward Scissorhands",
+            "image": "./images/edward.webp",
+            "year": 1990
+        },
+        {
+            "id": 9,
+            "title": "Return of the Jedi",
+            "image": "./images/returnofthejedi.webp",
+            "year": 1983
+        },
+        {
+            "id": 10,
+            "title": "The Dark Knight",
+            "image": "./images/darkknight.webp",
+            "year": 2008
+        },
+        {
+            "id": 11,
+            "title": "The Breakfast Club",
+            "image": "./images/breakfastclub.webp",
+            "year": 1985
+        },
+        {
+            "id": 12,
+            "title": "Gia",
+            "image": "./images/gia.webp",
+            "year": 1998
+        },
+        {
+            "id": 13,
+            "title": "Legally Blonde",
+            "image": "./images/legallyblonde.webp",
+            "year": 2001
+        },
+        {
+            "id": 14,
+            "title": "Scream",
+            "image": "./images/scream.webp",
+            "year": 1996
+        },
+        {
+            "id": 15,
+            "title": "Prisoner of Azkaban",
+            "image": "./images/prisonerofazkaban.webp",
+            "year": 2004
+        },
+        {
+            "id": 16,
+            "title": "The Devil Wears Prada",
+            "image": "./images/devilwearsprada.webp",
+            "year": 2006
+        },
+        {
+            "id": 17,
+            "title": "10 things I hate about you",
+            "image": "./images/10thingsihateaboutyou.webp",
+            "year": 1999
+        }
+    ],
+    "global": {
+        "year": "Year",
+        "about": "About",
+        "projects": "Projects",
+        "internship": "Internship",
+        "return": "Back to projects",
+        "lang": "Dutch",
+        "hello": "Hi, I'm Sara",
+        "intro": "This is my portfolio",
+        "click": "Click here",
+        "movies": "Some movies I like",
+        "more": "More projects"
+    }
+}

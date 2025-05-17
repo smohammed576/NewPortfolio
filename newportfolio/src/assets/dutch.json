@@ -1,0 +1,424 @@
+{
+    "about": "Ik ben een student Software developer aan het Mediacollege van Amsterdam. Ik ben momenteel bezig met mijn eerste stage, hier leer ik onder andere met .NET te werken en heb hier mijn eerste API gebouwd. Ik heb ervaring met onder andere ReactJS, SCSS, Laravel, React Native, PHP, Javascript. Ik werk graag met ReactJS en Laravel, gecombineerd en apart. Omdat ik nu fulltime stage loop, heb ik niet veel tijd gehad om aan mijn eigen projecten te kunnen werken. Door dit zijn er bijna geen commits van de laatste paar maanden op mijn GitHub.",
+    "projects": [
+        {
+            "title": "Film ontdekkings site",
+            "year": 2,
+            "image": "./images/laravelmain.png",
+            "description": "Dit is mijn allereerste Laravel project dat ik ooit heb gebouwd. Het was een school project en de opdracht was om een blog te bouwen met Laravel en Tailwind. Dit moesten we doen door een tutorial, gemaakt door mijn docent, te volgen. De bedoeling van deze opdracht was om de basis te leren van Laravel en Tailwind. In plaats van een blog te maken, heb ik een website gebouwd waar mensen films kunnen loggen en raten. Waarom ik dit had gebouwd in plaats van de blog was omdat ik erg van films hou en ik dit veel interessanter vond dan een blog. Hierdoor had ik veel meer plezier tijdens het bouwen en heb ik ook nog eens enorm veel geleerd.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/M7PROG-Laravel"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://movies.saramohammed.com/"
+                }
+            ],
+            "languages": ["LARAVEL", "TAILWIND", "PHP"]
+        },
+        {
+            "title": "Sociale Media",
+            "year": 2,
+            "image": "./images/image.png",
+            "description": "Dit was een school opdracht. De bedoeling was om een kopie te maken van een sociale media website met gebruik van de styling van een ander social media website en een infinite scroll functie erbij toe te voegen. Ik had voor Discord met de styling van Instagram gekozen omdat ik het kleuren pallette van Instagram erg mooi vind. Discord heb ik gewoon willekeurig gekozen, er zat geen reden achter. De applicatie is best goed geworden, ik ben er trots op. Ik heb mijn eigen JSON bestand gemaakt in plaats van er een te genereren met een online tool. Dit heb ik gedaaan omdat ik op deze manier mijn eigen data kan gebruiken en het hierdoor leuker te maken. Als het een bestand was vol met willekeurige mensen dan zou ik waarschijnlijk niet veel plezier gehad hebben in het bouwen van deze applicatie.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/M7-BO/tree/main/Social%20Media"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://34916.hosts2.ma-cloud.nl/socialMedia/"
+                }
+            ],
+            "languages": ["HTML", "SCSS", "JAVASCRIPT"]
+        },
+        {
+            "title": "Travels",
+            "year": 31,
+            "image": "https://stageblog.saramohammed.com/uploads/dIvTSUFcp6rBRVTfiti1XmnycVOpsnpgokWymQUD.png",
+            "description": "Dit is een project die ik heb gemaakt tijdens mijn stage. Ik kreeg deze opdracht omdat ik nog nooit met .NET had gewerkt en ik dit een beetje onder de knie moest hebben om verder te kunnen werken aan andere opdrachten. Ik moest een website maken dat vakantie plekken voorstelt aan de gebruikers op basis van hun voorkeuren. De gebruiker vult eerst in wanneer zij op vakantie kunnen en dan naar wat voor vakantie zij zoeken, bijvoorbeeld een strand vakantie in juli. De gebruiker drukt dan op zoek en krijgt dan allemaal plekken terug die het best passen bij de ingevulde voorkeuren. Ik heb dit gemaakt met een zelfgemaakte API, wat trouwens ook iets is wat ik nog nooit eerder had gedaan. Ik heb ook een authenticatie systeem gemaakt wat ervoor zorgt dat gebruikers kunnen in-en-uit loggen. Wanneer een gebruiker ingelogt is dan kunnen zij ook vakantieplekken opslaan als favoriet en deze terugvinden op de favoriet pagina. Dit is een project waar ik erg trots op ben. Ik heb dit in mijn eentje gebouwd en het was eerlijk gezegd echt leuk om te maken. Er zijn helaas geen linkjes naar GitHub of naar de online versie.",
+            "languages": ["REACT", "DOTNET", "SCSS"]
+        },
+        {
+            "title": "POGO Webshop",
+            "year": 1,
+            "image": "./images/Screenshot (101).png",
+            "description": "Dit is mijn eerste webshop. Dit was mijn laatste project van mijn eerste jaar. De opdracht was om een webshop te maken met de styling van een bekende webshop. Deze mochten we niet zelf kiezen, de docenten kozen willekeurig voor elke leerling. Ik kreeg HEMA, wat een enorme opluchting was omdat sommige andere leerlingen webshops kregen die, niet gemeen bedoeld, maar echt niet mooi waren. Ik ben erg trots op dit project, het is zeker niet mijn beste project maar voor iemand die heel weinig wist over programmeren, is het best wel goed.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/BO.M4-POGO"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://34916.hosts2.ma-cloud.nl/pogo/"
+                }
+            ],
+            "languages": ["HTML", "CSS", "JAVASCRIPT"]
+        },
+        {
+            "title": "Muziek",
+            "year": 3,
+            "image":"./images/music.png",
+            "description": "Dit was mijn allereerste React project ooit. Op school kregen we lijst met projecten waar je uit kon kiezen en de bedoeling was dat je het gekozen project dan ging bouwen in React. Ik had gekozen voor het Music Library project. Ik had hiervoor nog nooit met React gewerkt en vond het ook echt wel een uitdaging om hieraan te beginnen maar zodra ik het een beetje onder de knie had ging het best wel goed. Ik had veel plezier bij het maken van dit project en dat zorgde ervoor dat ik ook een paar andere projecten van de lijst ging bouwen. Ik ben best wel trots op deze applicatie, hoewel naar deze code kijken wel echt een beetje pijn doet. Ik heb veel meer ervaring met React nu en ik zou dit project zo veel beter kunnen bouwen nu maar voor iemand die nog nooit React had gebruikt, is dit best wel goed.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/M9Skills/tree/main/music/music"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://music.saramohammed.com/"
+                }
+            ],
+            "languages": ["REACT", "SCSS"]
+        },
+        {
+            "title": "Pokedex",
+            "year": 3,
+            "image": "./images/pokedex.png",
+            "description": "Ik heb deze applicatie gemaakt na de Music Library opdracht. Ik was nog nieuw met React en had plezier met het bouwen van de vorige opdracht en wou beter worden in React. Ik koos er toen voor om deze opdracht ook te maken. Het is een dashboard waar je een Pokemon kan opzoeken en dan krijg je allemaal informatie over de Pokemon terug te zien op het dashboard. Dit was een ander leuk project. Ik hoefde dit niet te maken maar ik ben blij dat ik het wel heb gedaan.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/M9Skills/tree/main/pokedex"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://pokedex.saramohammed.com/"
+                }
+            ],
+            "languages": ["REACT", "SCSS"]
+        },
+        {
+            "title": "Weer",
+            "year": 3,
+            "image": "./images/weather.png",
+            "description": "Dit is een ander React project dat op de lijst met projecten van school stond. Ik heb deze applicatie gemaakt na de Music Library en Pokedex. Ik wou beter worden in React en besloot om dus meer opdrachten te maken. Je kan steden opzoeken en dan krijg je het weer en de tijd van de locatie terug. Het laat ook de weervoorspelling van de komende week zien en hoelaat de zon op-en-onder gaat. Als je een locatie opzoekt waar de zon al ondergegaan is, dan verandert de achtergrond van kleur. Dat was gewoon een leuk extra dingetje dat ik heb toegevoegd aan de opdracht.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/M9Skills/tree/main/weather"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://weather.saramohammed.com"
+                }
+            ],
+            "languages": ["REACT", "SCSS"]
+        },
+        {
+            "title": "Banky",
+            "year": 2,
+            "image": "./images/banky.png",
+            "description": "Een bankieren applicatie gemaakt voor een school project. De opdracht was om een applicatie te bouwen waar je jouw saldo en uitgavens kan bekijken. Ik heb natuurlijk neppe data gebruikt. Het heeft een paar animaties en een blur functie en je kan switchen tussen accounten. Het is leuk klein project, niets speciaals.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/M7-FLEX/tree/main/Banky"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://34916.hosts2.ma-cloud.nl/Banky/"
+                }
+            ],
+            "languages": ["HTML", "SCSS", "JAVASCRIPT"]
+        },
+        {
+            "title": "Showcase",
+            "year": 2,
+            "image": "./images/showcase.png",
+            "description": "Dit was een school opdracht aan het begin van mijn tweede jaar. De opdracht was om een applicatie te bouwen waar je kan typen in een inputveld en je de tekst in drie verschillende lettertypes kan terugzien. Je kan ook 1 lettertype markeren als favoriet en de applicatie heeft een donkere en lichte modus. Er zitten ook een paar kleine animaties in de applicatie. Ik vind de kleuren die ik heb gebruikt heel mooi bij elkaar passen.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/PROGM5.FE/tree/main/Opdracht%203"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://34916.hosts2.ma-cloud.nl/progm503/"
+                }
+            ],
+            "languages": ["HTML", "SCSS", "JAVASCRIPT"]
+        },
+        {
+            "title": "Kalender",
+            "year": 2,
+            "image": "./images/calendar.png",
+            "description": "Dit is een werkende kalender applicatie die ik voor een school opdracht heb gemaakt. We moesten een kalender bouwen die je laat zien welke dag het is en wat voor dag het is. Je kan ook andere maanden bekijken en zien hoeveel dagen er in die maand zitten en op welke dagen die vallen. Ik heb deze applicatie in mijn tweede jaar gebouwd en het was best wel lastig. Ik ben best trots op het eindresultaat, het is niets speciaals maar het is alsnog wel een beetje cool.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/M7-BO/tree/main/Calender"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://34916.hosts2.ma-cloud.nl/calendar/"
+                }
+            ],
+            "languages": ["HTML", "SCSS", "JAVASCRIPT"]
+        },
+        {
+            "title": "Encrypter & Decrypter",
+            "year": 2,
+            "image": "./images/encryptdecrypt.png",
+            "description": "Dit is een klein project dat ik heb gemaakt in mijn tweede jaar. Het is een applicatie waar je tekst kan typen en deze encrypted terug krijgt. Dat houdt in versleuteld of gecodeerd. De tekst wordt onleesbaar tenzij je het stopt in de andere input in de applicatie waar Decrypt boven staat. Dat zorgt ervoor dat de tekst weer leesbaar wordt.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/Home-Projects/tree/main/Encrypter%20%26%20Decrypter"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://34916.hosts2.ma-cloud.nl/homeprojects/Encrypter%20&%20Decrypter/"
+                }
+            ],
+            "languages": ["HTML", "SCSS", "JAVASCRIPT"]
+        },
+        {
+            "title": "Kleuren",
+            "year": 2,
+            "image": "./images/colors.png",
+            "description": "Dit was een school opdracht in mijn tweede jaar. We moesten een applicatie bouwen dat 100 willekeurige kleuren genereert met Javascript en animaties gemaakt met SCSS. Als je een kleur leuk vind dan kan je erop klikken en zo kopieer je de hsl code van de kleur. De kleuren veranderen elke keer als je de pagina opnieuw laadt.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/M7-FLEX/tree/main/Les%202%20Colors"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://34916.hosts2.ma-cloud.nl/flex/Colors/"
+                }
+            ],
+            "languages": ["HTML", "SCSS", "JAVASCRIPT"]
+        },
+        {
+            "title": "SCSS kunst",
+            "year": 2,
+            "image": "./images/cssart.png",
+            "description": "Voor deze schoolopdracht moesten we kunst maken met SCSS. Ik was best nieuw met SCSS dus het was best een lastige opdracht. Maar ik vind dat het eindresultaat best wel goed is en ik ben er trots op. We mochten geen Javascript gebruiken, tenzij het echt niet anders kon. Het heeft ook een animatie. Ik vond het leuk om dit project te maken en mijn docent vond het erg goed.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/PROGM5.FE/tree/main/Opdracht%204"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://34916.hosts2.ma-cloud.nl/cssart/"
+                }
+            ],
+            "languages": ["HTML", "SCSS"]
+        },
+        {
+            "title": "Cookie clicker",
+            "year": 2,
+            "image": "./images/cookie.png",
+            "description": "Ik heb een Cookie clicker gemaakt met Javascript. Het heeft was animaties en allerlei soorten functies zoals Multiplier en Auto-score. Ik heb deze applicatie een tijdje terug gemaakt dus ik herinner me niet elke functie maar het is alsnog wel een best cool project.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/Home-Projects/tree/main/Cookie%20Clicker"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://34916.hosts2.ma-cloud.nl/homeprojects/Cookie%20Clicker"
+                }
+            ],
+            "languages": ["HTML", "SCSS", "JAVASCRIPT"]
+        },
+        {
+            "title": "Intertoys clone",
+            "year": 3,
+            "image": "./images/intertoys.png",
+            "description": "Dit is gewoon een klein, snel project dat ik thuis heb gemaakt. Ik verveelde me en had niets te doen dus ik besloot de Intertoys website na te bouwen. Ik was van plan om hem ook functioneel te maken, dan zou je naar verschillende paginas kunnen gaan en op knoppen klikken maar ik heb dat uiteindelijk toch niet gedaan. Maar het ziet er alsnog wel leuk uit.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/Home-Projects/tree/main/Intertoys%20Clone"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://34916.hosts2.ma-cloud.nl/homeprojects/Intertoys%20Clone"
+                }
+            ],
+            "languages": ["HTML", "SCSS", "JAVASCRIPT"] 
+        },
+        {
+            "title": "Wordpress",
+            "year": 2,
+            "image": "./images/wordpress.png",
+            "description": "Dit was een schoolproject aan het eind van mijn tweede jaar. We moesten voor de eerste keer een Wordpress website bouwen. Er waren een aantal groepjes met allemaal verschilende opdrachten en ik was in de groep dat een website moest bouwen voor software en game developer studenten. Zij kunnen hun gemaakte projecten uploaden op de website. Hoewel we allemaal in groepjes zaten, moesten we wel de opdracht alleen maken. Ik had geen enkele kennis van Wordpress en had eerlijk gezegd ook geen zin om daar verandering in te brengen. Ik heb de opdracht uiteindelijk wel gemaakt en het is niet af en de website zit ook vol met placeholders maar ik vind dat voor mijn eerste Wordpress website het nog best oke is.",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fa-brands fa-github",
+                    "link": "https://github.com/smohammed576/M8PROG-Wordpress"
+                },
+                {
+                    "name": "Live",
+                    "icon": "fa-solid fa-globe",
+                    "link": "https://34916.hosts2.ma-cloud.nl/m8prog/"
+                }
+            ],
+            "languages": ["WORDPRESS", "SCSS"] 
+        }
+    ],
+    "movies": [
+        {
+            "id": 10000,
+            "title": "test"
+        },
+        {
+            "id": 0,
+            "title": "Girl, Interrupted",
+            "image": "./images/u.jpg",
+            "year": 1999
+        },
+        {
+            "id": 1,
+            "title": "Pulp Fiction",
+            "image": "./images/pulpfiction.webp",
+            "year": 1994
+        },
+        {
+            "id": 2,
+            "title": "The Amazing Spider-Man",
+            "image": "./images/spiderman.webp",
+            "year": 2012
+        },
+        {
+            "id": 3,
+            "title": "Hackers",
+            "image": "./images/hackers.webp",
+            "year": 1995
+        },
+        {
+            "id": 4,
+            "title": "Bottoms",
+            "image": "./images/bottoms.webp",
+            "year": 2023
+        },
+        {
+            "id": 5,
+            "title": "Back To The Future",
+            "image": "./images/backtothefuture.webp",
+            "year": 1989
+        },
+        {
+            "id": 6,
+            "title": "Mean Girls",
+            "image": "./images/meangirls.webp",
+            "year": 2004
+        },
+        {
+            "id": 7,
+            "title": "Black Swan",
+            "image": "./images/swan.webp",
+            "year": 2010
+        },
+        {
+            "id": 8,
+            "title": "Edward Scissorhands",
+            "image": "./images/edward.webp",
+            "year": 1990
+        },
+        {
+            "id": 9,
+            "title": "Return of the Jedi",
+            "image": "./images/returnofthejedi.webp",
+            "year": 1983
+        },
+        {
+            "id": 10,
+            "title": "The Dark Knight",
+            "image": "./images/darkknight.webp",
+            "year": 2008
+        },
+        {
+            "id": 11,
+            "title": "The Breakfast Club",
+            "image": "./images/breakfastclub.webp",
+            "year": 1985
+        },
+        {
+            "id": 12,
+            "title": "Gia",
+            "image": "./images/gia.webp",
+            "year": 1998
+        },
+        {
+            "id": 13,
+            "title": "Legally Blonde",
+            "image": "./images/legallyblonde.webp",
+            "year": 2001
+        },
+        {
+            "id": 14,
+            "title": "Scream",
+            "image": "./images/scream.webp",
+            "year": 1996
+        },
+        {
+            "id": 15,
+            "title": "Prisoner of Azkaban",
+            "image": "./images/prisonerofazkaban.webp",
+            "year": 2004
+        },
+        {
+            "id": 16,
+            "title": "The Devil Wears Prada",
+            "image": "./images/devilwearsprada.webp",
+            "year": 2006
+        },
+        {
+            "id": 17,
+            "title": "10 things I hate about you",
+            "image": "./images/10thingsihateaboutyou.webp",
+            "year": 1999
+        }
+    ],
+    "global": {
+        "year": "Jaar",
+        "about": "Over mij",
+        "projects": "Projecten",
+        "internship": "Stage",
+        "return": "Terug naar projecten",
+        "lang": "Engels",
+        "hello": "Hey, Ik ben Sara",
+        "intro": "Dit is mijn portfolio",
+        "click": "Klik hier",
+        "movies": "Paar films die ik leuk vind",
+        "more": "Meer projecten"
+    }
+}

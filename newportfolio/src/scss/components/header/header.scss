@@ -1,0 +1,16 @@
+@use "../../abstracts/variables";
+@use "../../abstracts/mixins";
+
+.header{
+    background: map-get(variables.$baseVars, "dark");
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 4rem;
+
+    &__link{
+        color: map-get(variables.$baseVars, "color");
+        font-weight: 600;
+        text-decoration: none;
+    }
+}

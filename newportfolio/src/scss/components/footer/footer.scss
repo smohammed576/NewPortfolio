@@ -1,0 +1,18 @@
+@use "../../abstracts/variables";
+@use "../../abstracts/mixins";
+
+.footer{
+    background: map-get(variables.$baseVars, "dark");
+    width: 100%;
+    padding: 2rem 4rem;
+    border-top: 0.1rem solid rgba(map-get(variables.$baseVars, "grey"), 0.4);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    &__text{
+        @include mixins.flexBox;
+        color: map-get(variables.$baseVars, "grey");
+        font-size: 80%;
+    }
+}

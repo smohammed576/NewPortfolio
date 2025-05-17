@@ -1,0 +1,628 @@
+{
+    "theme": [
+        {
+            "color": "red"
+        }
+    ],
+    "projects": [
+        {
+            "id": 0,
+            "title": "Movie Discovery Site",
+            "image": "./images/laravelmain.png",
+            "description": "Movie dairy made with Laravel (my first Laravel project)",
+            "dutch": "Film website met Laravel gemaakt (mijn eerste Laravel project)",
+            "github": "https://github.com/smohammed576/M7PROG-Laravel",
+            "live": "https://movies.saramohammed.com/",
+            "languages": [
+                {
+                    "name": " HTML",
+                    "background": "#FC4100",
+                    "color": "white"
+                },
+                {
+                    "name": " Tailwind",
+                    "background": "#3A6D8C",
+                    "color": "white"
+                },
+                {
+                    "name": " Laravel",
+                    "background": "darkred",
+                    "color": "white"
+                },
+                {
+                    "name": " Blade",
+                    "background": "#B8001F",
+                    "color": "white"
+                },
+                {
+                    "name": " PHP",
+                    "background": "#001F3F",
+                    "color": "white"
+                }
+            ],
+            "allLanguages": " Tailwind Laravel PHP"
+        },
+        {
+            "id": 1,
+            "title": "Social Media",
+            "image": "./images/image.png",
+            "description": "A Discord clone in Instagram styling with infinite scrolling",
+            "dutch": "Een Discord clone gemaakt in Instagram styling met een oneindige scroll",
+            "github": "https://github.com/smohammed576/M7-BO/tree/main/Social%20Media",
+            "live": "https://34916.hosts2.ma-cloud.nl/socialMedia/",
+            "languages": [
+                {
+                    "name": " HTML",
+                    "background": "#FC4100",
+                    "color": "white"
+                },
+                {
+                    "name": " SCSS",
+                    "background": "#E78F81",
+                    "color": "white"
+                },
+                {
+                    "name": " Javascript",
+                    "background": "#FFEB00",
+                    "color": "white"
+                }
+            ],
+            "allLanguages": " SCSS Javascript"
+        },
+        {
+            "id": 2,
+            "title": "POGO Webshop",
+            "image": "./images/Screenshot (101).png",
+            "description": "My first webshop, made this in my first year",
+            "dutch": "Mijn eerste webshop, gemaakt in mijn eerste jaar",
+            "github": "https://github.com/smohammed576/BO.M4-POGO",
+            "live": "https://34916.hosts2.ma-cloud.nl/pogo/",
+            "languages": [
+                {
+                    "name": " HTML",
+                    "background": "#FC4100",
+                    "color": "white"
+                },
+                {
+                    "name": " CSS",
+                    "background": "#001F3F",
+                    "color": "white"
+                },
+                {
+                    "name": " Javascript",
+                    "background": "#FFEB00",
+                    "color": "white"
+                }
+            ],
+            "allLanguages": " Javascript"
+        },
+        {
+            "id": 3,
+            "title": "Music Library",
+            "image": "./images/music.png",
+            "description": "My first React project. I made a music library with React for a school project. I'm still working on it but this is what I have so far.",
+            "dutch": "Mijn eerste React project. Ik heb een muziek player gemaakt met React voor een school opdracht. Het is nog niet af maar dit is wat ik tot nu toe heb.",
+            "github": "https://github.com/smohammed576/M9Skills/tree/main/music/music",
+            "live": "https://music.saramohammed.com/",
+            "languages": [
+                {
+                    "name": " HTML",
+                    "background": "#FC4100",
+                    "color": "white"
+                },
+                {
+                    "name": " SCSS",
+                    "background": "hotpink",
+                    "color": "white"
+                },
+                {
+                    "name": " React",
+                    "background": "#608BC1",
+                    "color": "white"
+                }
+            ],
+            "allLanguages": " SCSS React"
+        },
+        {
+            "id": 4,
+            "title": "Pokedex",
+            "image": "./images/pokedex.png",
+            "description": "I made this Pokedex project in React and I made it in a few hours. And not gonna lie, I actually enjoyed making this which was kind of unexpected. ",
+            "dutch": "Ik heb dit Pokedex project in React gemaakt en dit heb ik gedaan binnen een paar uur. Ik vond het verrassend genoeg best leuk om te maken.",
+            "github": "https://github.com/smohammed576/M9Skills/tree/main/pokedex",
+            "live": "https://pokedex.saramohammed.com/",
+            "languages": [
+                {
+                    "name": " HTML",
+                    "background": "#FC4100",
+                    "color": "white"
+                },
+                {
+                    "name": " SCSS",
+                    "background": "hotpink",
+                    "color": "white"
+                },
+                {
+                    "name": " React",
+                    "background": "#608BC1",
+                    "color": "white"
+                }
+            ],
+            "allLanguages": " SCSS React"
+        },
+        {
+            "id": 5,
+            "title": "Weather",
+            "image": "./images/weather.png",
+            "description": "A weather app made in React. Made this project in a few days. The site is responsive.",
+            "dutch": "Een weer app gemaakt in React. Ik heb dit in een paar dagen gemaakt. Is responsive.",
+            "github": "https://github.com/smohammed576/M9Skills/tree/main/weather",
+            "live": "https://weather.saramohammed.com/",
+            "languages": [
+                {
+                    "name": " HTML",
+                    "background": "#FC4100",
+                    "color": "white"
+                },
+                {
+                    "name": " SCSS",
+                    "background": "hotpink",
+                    "color": "white"
+                },
+                {
+                    "name": " React",
+                    "background": "#608BC1",
+                    "color": "white"
+                }
+            ],
+            "allLanguages": " SCSS React"
+        },
+        {
+            "id": 6,
+            "title": "Banky",
+            "image": "./images/banky.png",
+            "description": "A Banking app made for a schoolproject. Made with Javascript and SCSS",
+            "dutch": "Een Bankieren app gemaakt voor een schoolopdracht. Gemaakt met Javascript en SCSS",
+            "github": "https://github.com/smohammed576/M7-FLEX/tree/main/Banky",
+            "live": "https://34916.hosts2.ma-cloud.nl/flex/Banky/",
+            "languages": [
+                {
+                    "name": " HTML",
+                    "background": "#FC4100",
+                    "color": "white"
+                },
+                {
+                    "name": " SCSS",
+                    "background": "hotpink",
+                    "color": "white"
+                },
+                {
+                    "name": " Javascript",
+                    "background": "#FFEB00",
+                    "color": "white"
+                }
+            ],
+            "allLanguages": " SCSS Javascript"
+        },
+        {
+            "id": 7,
+            "title": "Showcase",
+            "image": "./images/showcase.png",
+            "description": "Schoolproject made with Javascript and SCSS",
+            "dutch": "School project gemaakt met Javascript en SCSS",
+            "github": "https://github.com/smohammed576/PROGM5.FE/tree/main/Opdracht%203",
+            "live": "https://34916.hosts2.ma-cloud.nl/progm503/",
+            "languages": [
+                {
+                    "name": " HTML",
+                    "background": "#FC4100",
+                    "color": "white"
+                },
+                {
+                    "name": " SCSS",
+                    "background": "hotpink",
+                    "color": "white"
+                },
+                {
+                    "name": " Javascript",
+                    "background": "#FFEB00",
+                    "color": "white"
+                }
+            ],
+            "allLanguages": " SCSS Javascript"
+        },
+        {
+            "id": 8,
+            "title": "Calendar",
+            "image": "./images/calendar.png",
+            "description": "A working calender app made for school",
+            "dutch": "Een werkende kalender app gemaakt voor school",
+            "github": "https://github.com/smohammed576/M7-BO/tree/main/Calender",
+            "live": "https://34916.hosts2.ma-cloud.nl/calendar/",
+            "languages": [
+                {
+                    "name": " HTML",
+                    "background": "#FC4100",
+                    "color": "white"
+                },
+                {
+                    "name": " SCSS",
+                    "background": "hotpink",
+                    "color": "white"
+                },
+                {
+                    "name": " Javascript",
+                    "background": "#FFEB00",
+                    "color": "white"
+                }
+            ],
+            "allLanguages": " SCSS Javascript"
+        },
+        {
+            "id": 9,
+            "title": "Encrypter & Decrypter",
+            "image": "./images/encryptdecrypt.png",
+            "description": "A encrypter and decrypter made in Javascript. You can turn your messages into a secret code",
+            "dutch": "Een encrypter en decrypter gemaakt met Javascript. Je kan je berichten veranderen in een geheime code",
+            "github": "https://github.com/smohammed576/Home-Projects/tree/main/Encrypter%20%26%20Decrypter",
+            "live": "https://34916.hosts2.ma-cloud.nl/homeprojects/Encrypter%20&%20Decrypter/",
+            "languages": [
+                {
+                    "name": " HTML",
+                    "background": "#FC4100",
+                    "color": "white"
+                },
+                {
+                    "name": " SCSS",
+                    "background": "hotpink",
+                    "color": "white"
+                },
+                {
+                    "name": " Javascript",
+                    "background": "#FFEB00",
+                    "color": "white"
+                }
+            ],
+            "allLanguages": " SCSS Javascript"
+        },
+        {
+            "id": 10,
+            "title": "SCSS Art",
+            "image": "./images/cssart.png",
+            "description": "SCSS Art project. I made a portret of Avan Jogia in SCSS",
+            "dutch": "SCSS Art opdracht. Ik heb een portret van Avan Jogia gemaakt in SCSS",
+            "github": "https://github.com/smohammed576/PROGM5.FE/tree/main/Opdracht%204",
+            "live": "https://34916.hosts2.ma-cloud.nl/cssart/",
+            "languages": [
+                {
+                    "name": " HTML",
+                    "background": "#FC4100",
+                    "color": "white"
+                },
+                {
+                    "name": " SCSS",
+                    "background": "hotpink",
+                    "color": "white"
+                }
+            ],
+            "allLanguages": " SCSS"
+        },
+        {
+            "id": 11,
+            "title": "Wordpress",
+            "image": "./images/wordpress.png",
+            "description": "Wordpress project. A site where student Software developers and Game developers can post their projects. This was my first Wordpress project and it's not a finished project. And a lot of the content on the site are placeholders.",
+            "dutch": "Wordpress project. Een website waar een software of game developer student hun werk kunnen posten. Dit is mijn eerste Wordpress project en het is niet helemaal af. En veel van de content op de site zijn placeholders",
+            "github": "https://github.com/smohammed576/M8PROG-Wordpress",
+            "live": "https://34916.hosts2.ma-cloud.nl/m8prog/",
+            "languages": [
+                {
+                    "name": " Wordpress",
+                    "background": "#1E3E62",
+                    "color": "white"
+                },
+                {
+                    "name": " SCSS",
+                    "background": "hotpink",
+                    "color": "white"
+                }
+            ],
+            "allLanguages": " Wordpress SCSS"
+        },
+        {
+            "id": 12,
+            "title": "Cookie clicker",
+            "image": "./images/cookie.png",
+            "description": "Cookie clicker made with Javascript",
+            "dutch": "Een Cookie clicker gemaakt met Javascript",
+            "github": "https://github.com/smohammed576/Home-Projects/tree/main/Cookie%20Clicker",
+            "live": "https://34916.hosts2.ma-cloud.nl/homeprojects/Cookie%20Clicker",
+            "languages": [
+                {
+                    "name": " HTML",
+                    "background": "#FC4100",
+                    "color": "white"
+                },
+                {
+                    "name": " SCSS",
+                    "background": "hotpink",
+                    "color": "white"
+                },
+                {
+                    "name": " Javascript",
+                    "background": "#FFEB00",
+                    "color": "white"
+                }
+            ],
+            "allLanguages": " SCSS Javascript"
+        },
+        {
+            "id": 13,
+            "title": "Colors",
+            "image": "./images/colors.png",
+            "description": "Random color generator, generates 100 random colors with Javascript with SCSS animation",
+            "dutch": "Willekeurige kleur maker, laat 100 willekeurige kleuren zien met behulp van Javascript met een SCSS animatie",
+            "github": "https://github.com/smohammed576/M7-FLEX/tree/main/Les%202%20Colors",
+            "live": "https://34916.hosts2.ma-cloud.nl/flex/Colors/",
+            "languages": [
+                {
+                    "name": " HTML",
+                    "background": "#FC4100",
+                    "color": "white"
+                },
+                {
+                    "name": " SCSS",
+                    "background": "hotpink",
+                    "color": "white"
+                },
+                {
+                    "name": " Javascript",
+                    "background": "#FFEB00",
+                    "color": "white"
+                }
+            ],
+            "allLanguages": " SCSS Javascript"
+        },
+        {
+            "id": 14,
+            "title": "Intertoys Clone",
+            "image": "./images/intertoys.png",
+            "description": "Made an Intertoys clone with Javascript and SCSS. I made this in a few days. I'm probably gonna make it functional",
+            "dutch": "Een Intertoys clone gemaakt met Javascript en SCSS. Ik heb dit in een paar dagen gemaakt. Ik ga hem waarschijnlijk ook nog functioneel maken",
+            "github": "https://github.com/smohammed576/Home-Projects/tree/main/Intertoys%20Clone",
+            "live": "https://34916.hosts2.ma-cloud.nl/homeprojects/Intertoys%20Clone",
+            "languages": [
+                {
+                    "name": " HTML",
+                    "background": "#FC4100",
+                    "color": "white"
+                },
+                {
+                    "name": " SCSS",
+                    "background": "hotpink",
+                    "color": "white"
+                },
+                {
+                    "name": " Javascript",
+                    "background": "#FFEB00",
+                    "color": "white"
+                }
+            ],
+            "allLanguages": " SCSS Javascript"
+        }
+    ],
+    "introText": [
+        {
+            "text": "Software developer student"
+        },
+        {
+            "text": "I love Javascript"
+        }
+    ],
+    "header": [
+        {
+            "item": "About",
+            "id": "#main"
+        },
+        {
+            "item": "Projects",
+            "id": "#projects"
+        },
+        {
+            "item": "Contact",
+            "id": "#contact"
+        }
+    ],
+    "skills": [
+        {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png",
+            "alt": "HTML"
+        },
+        {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/340px-CSS3_logo_and_wordmark.svg.png",
+            "alt": "CSS3"
+        },
+        {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png",
+            "alt": "Sass"
+        },
+        {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+            "alt": "Javascript"
+        },
+        {
+            "image": "https://pngimg.com/d/php_PNG43.png",
+            "alt": "PHP"
+        }
+    ],
+    "buttons": [
+        {
+            "id": 0,
+            "class": "fa-regular fa-circle-dot projects__buttons--button"
+        },
+        {
+            "id": 1,
+            "class": "fa-regular fa-circle-dot projects__buttons--button"
+        },
+        {
+            "id": 2,
+            "class": "fa-regular fa-circle-dot projects__buttons--button"
+        }
+    ],
+    "contact": [
+        {
+            "class": "fa-brands fa-github contact__wrapper--icon",
+            "link": "https://www.github.com/smohammed576"
+        },
+        {
+            "class": "fa-brands fa-linkedin contact__wrapper--icon",
+            "link": "https://www.linkedin.com/in/sara-mohammed-b2328a29b/"
+        },
+        {
+            "class": "fa-solid fa-envelope contact__wrapper--icon",
+            "link": "mailto:smohammed0576@gmail.com"
+        }
+    ],
+    "information": [
+        {
+            "text": "I am a 3th year software developer student at Mediacollege Amsterdam. I love working with Javascript. I also have experience with Sass (specifically SCSS) and PHP. I'm very interested in Laravel and made my first Laravel project a few months ago. I like learning and will always try to improve myself.",
+            "dutch": "Ik ben een derde jaar software developer student aan het Mediacollege van Amsterdam. Ik hou van Javascript. Ik heb ook ervaring met Sass (SCSS specifiek) en PHP. Ik ben erg geinteresseerd in Laravel en heb een paar maanden geleden mijn eerste Laravel project gemaakt. Ik hou van leren en zal altijd mijn best doen om te verbeteren."
+        }
+    ],
+    "filters": [
+        {
+            "name": "Javascript"
+        },
+        {
+            "name": "SCSS"
+        },
+        {
+            "name": "PHP"
+        },
+        {
+            "name": "Laravel"
+        },
+        {
+            "name": "React"
+        },
+        {
+            "name": "Wordpress"
+        }
+    ],
+    "movies": [
+        {
+            "id": 0,
+            "title": "Girl, Interrupted",
+            "image": "u.jpg",
+            "year": 1999
+        },
+        {
+            "id": 1,
+            "title": "Pulp Fiction",
+            "image": "./images/pulpfiction.webp",
+            "year": 1994
+        },
+        {
+            "id": 2,
+            "title": "The Amazing Spider-Man",
+            "image": "./images/spiderman.webp",
+            "year": 2012
+        },
+        {
+            "id": 3,
+            "title": "Hackers",
+            "image": "./images/hackers.webp",
+            "year": 1995
+        },
+        {
+            "id": 4,
+            "title": "Bottoms",
+            "image": "./images/bottoms.webp",
+            "year": 2023
+        },
+        {
+            "id": 5,
+            "title": "Back To The Future",
+            "image": "./images/backtothefuture.webp",
+            "year": 1989
+        },
+        {
+            "id": 6,
+            "title": "Mean Girls",
+            "image": "./images/meangirls.webp",
+            "year": 2004
+        },
+        {
+            "id": 7,
+            "title": "Black Swan",
+            "image": "./images/swan.webp",
+            "year": 2010
+        },
+        {
+            "id": 8,
+            "title": "Edward Scissorhands",
+            "image": "./images/edward.webp",
+            "year": 1990
+        },
+        {
+            "id": 9,
+            "title": "Return of the Jedi",
+            "image": "./images/returnofthejedi.webp",
+            "year": 1983
+        },
+        {
+            "id": 10,
+            "title": "The Dark Knight",
+            "image": "./images/darkknight.webp",
+            "year": 2008
+        },
+        {
+            "id": 11,
+            "title": "The Breakfast Club",
+            "image": "./images/breakfastclub.webp",
+            "year": 1985
+        },
+        {
+            "id": 12,
+            "title": "Gia",
+            "image": "./images/gia.webp",
+            "year": 1998
+        },
+        {
+            "id": 13,
+            "title": "Legally Blonde",
+            "image": "./images/legallyblonde.webp",
+            "year": 2001
+        },
+        {
+            "id": 14,
+            "title": "Scream",
+            "image": "./images/scream.webp",
+            "year": 1996
+        },
+        {
+            "id": 15,
+            "title": "Harry Potter and the Prisoner of Azkaban",
+            "image": "./images/prisonerofazkaban.webp",
+            "year": 2004
+        },
+        {
+            "id": 16,
+            "title": "The Devil Wears Prada",
+            "image": "./images/devilwearsprada.webp",
+            "year": 2006
+        },
+        {
+            "id": 17,
+            "title": "10 things I hate about you",
+            "image": "./images/10thingsihateaboutyou.webp",
+            "year": 1999
+        }
+    ],
+    "widget": [
+        {
+            "text": "A random movie widget made in 2 hours. The movies in this widget are a few of the movies I like.",
+            "dutch": "Een film widget gemaakt in 2 lesuren. De films in de widget zijn een paar van de films die ik leuk vind."
+        }
+    ]
+}

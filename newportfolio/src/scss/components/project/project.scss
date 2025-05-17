@@ -1,0 +1,102 @@
+@use "../../abstracts/variables";
+@use "../../abstracts/mixins";
+
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+    width: 100%;
+    
+    &__wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    &__figure{
+        width: 50%;
+        background: blue;
+        height: 40rem;
+        @include mixins.flexBox;
+        position: relative;
+
+        &--image{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        &--wrapper{
+            position: absolute;
+        }
+    }
+
+    &__info{
+        width: 40%;
+        padding: 0 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 4rem;
+
+        &--wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            gap: 1rem;
+        }
+
+        &--description{
+            font-size: 90%;
+        }
+
+        &--list{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        &--item{
+            font-size: 80%;
+            padding: 0 0.8rem;
+            
+            &-HTML{
+                border: 0.2rem solid map-get(variables.$colorVars, "HTML");
+            }
+            &-CSS{
+                border: 0.2rem solid map-get(variables.$colorVars, "CSS");
+            }
+            &-SCSS{
+                border: 0.2rem solid map-get(variables.$colorVars, "SCSS");
+            }
+            &-JAVASCRIPT{
+                border: 0.2rem solid map-get(variables.$colorVars, "JAVASCRIPT");
+            }
+            &-LARAVEL{
+                border: 0.2rem solid map-get(variables.$colorVars, "LARAVEL");
+            }
+            &-REACT{
+                border: 0.2rem solid map-get(variables.$colorVars, "REACT");
+            }
+            &-PHP{
+                border: 0.2rem solid map-get(variables.$colorVars, "PHP");
+            }
+            &-TAILWIND{
+                border: 0.2rem solid map-get(variables.$colorVars, "TAILWIND");
+            }
+            &-DOTNET{
+                border: 0.2rem solid map-get(variables.$colorVars, "DOTNET");
+            }
+            &-WORDPRESS{
+                border: 0.2rem solid map-get(variables.$colorVars, "WORDPRESS");
+            }
+        }
+    }
+}

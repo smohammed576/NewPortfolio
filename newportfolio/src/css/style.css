@@ -1,0 +1,297 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  background: #090909;
+  color: white;
+  font-family: "Poppins";
+  font-size: 2rem;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  padding: 2rem 10rem;
+}
+
+.header {
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 4rem;
+}
+.header__link {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.heading {
+  background: black;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: 50%;
+}
+
+.work {
+  background: blue;
+}
+.work__image {
+  width: 10rem;
+}
+
+.movies {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.movies__heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.movies__heading--button {
+  background: none;
+  border: none;
+  font-size: 110%;
+  font-family: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 600;
+  color: white;
+}
+.movies__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+.movies__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  background: black;
+  padding: 2rem;
+}
+.movies__item--image {
+  width: 30rem;
+  height: 20rem;
+  object-fit: cover;
+}
+.movies__item--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+.movies__item--title {
+  font-weight: 600;
+}
+.movies__item--button {
+  background: none;
+  border: 0.3rem solid lightblue;
+  color: white;
+  padding: 0.6rem 1rem;
+  font-size: 90%;
+  font-family: inherit;
+  font-weight: 600;
+}
+.movies__item--button:focus {
+  outline: none;
+  background: lightblue;
+  color: #090909;
+}
+.movies__item--button:hover {
+  cursor: pointer;
+}
+
+.projects {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.projects__item {
+  background: black;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  text-decoration: none;
+  color: white;
+  border-radius: 1rem;
+}
+.projects__item--image {
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
+  border-radius: 1rem 1rem 0 0;
+}
+.projects__item--wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+.projects__item--languages {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  font-size: 80%;
+}
+.projects__item--title {
+  font-size: 90%;
+}
+.projects__item--year {
+  font-size: 70%;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 1rem;
+  width: 100%;
+}
+.project__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 1rem;
+  width: 100%;
+}
+.project__figure {
+  width: 50%;
+  background: blue;
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.project__figure--image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.project__figure--wrapper {
+  position: absolute;
+}
+.project__info {
+  width: 40%;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 4rem;
+}
+.project__info--wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 1rem;
+}
+.project__info--description {
+  font-size: 90%;
+}
+.project__info--list {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+.project__info--item {
+  font-size: 80%;
+  padding: 0 0.8rem;
+}
+.project__info--item-HTML {
+  border: 0.2rem solid #FC4100;
+}
+.project__info--item-CSS {
+  border: 0.2rem solid #001F3F;
+}
+.project__info--item-SCSS {
+  border: 0.2rem solid hotpink;
+}
+.project__info--item-JAVASCRIPT {
+  border: 0.2rem solid #FFEB00;
+}
+.project__info--item-LARAVEL {
+  border: 0.2rem solid darkred;
+}
+.project__info--item-REACT {
+  border: 0.2rem solid #608BC1;
+}
+.project__info--item-PHP {
+  border: 0.2rem solid #001F3F;
+}
+.project__info--item-TAILWIND {
+  border: 0.2rem solid #3A6D8C;
+}
+.project__info--item-DOTNET {
+  border: 0.2rem solid #593a8c;
+}
+.project__info--item-WORDPRESS {
+  border: 0.2rem solid #1E3E62;
+}
+
+.footer {
+  background: black;
+  width: 100%;
+  padding: 2rem 4rem;
+  border-top: 0.1rem solid rgba(187, 187, 187, 0.4);
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.footer__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(187, 187, 187);
+  font-size: 80%;
+}
+
+/*# sourceMappingURL=style.css.map */
