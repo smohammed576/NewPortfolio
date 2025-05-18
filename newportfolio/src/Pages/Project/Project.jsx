@@ -13,8 +13,13 @@ function Project(){
     useEffect(() => {
         if(data.projects){
             console.log(data);
-            setProject(data.projects[searchParams.get("id")]);
-            // setLoading(false);
+            if(searchParams.get("id")){
+                setProject(data.projects[searchParams.get("id")]);
+            }
+            else{
+                setProject(data.projects.find((item) => item.title === searchParams.get("name")));
+            }
+            setLoading(false);
         }
     }, [data]);
 
@@ -29,11 +34,11 @@ function Project(){
                             <img src={project.image} alt={project.title} className="project__figure--image" />
                             <div className="project__figure--wrapper">
                                 {
-                                    project.links?.map((item, index) => {
-                                        <a href={item.link} className="project__figure--link" key={index}>
+                                    project.links?.map((item, index) => 
+                                        <a href={item.link} className="project__figure--link" target="_blank" key={index}>
                                             <i className={`${item.icon} project__figure--link-icon`}/>
                                         </a>
-                                    })
+                                    )
                                 }
                             </div>
                         </figure>

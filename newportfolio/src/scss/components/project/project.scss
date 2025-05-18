@@ -30,6 +30,11 @@
         height: 40rem;
         @include mixins.flexBox;
         position: relative;
+        transition: 0.2s all;
+
+        &:hover &--wrapper{
+            display: flex;
+        }
 
         &--image{
             width: 100%;
@@ -39,6 +44,24 @@
 
         &--wrapper{
             position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            @include mixins.flexBox;
+            gap: 2rem;
+            background: rgba(map-get(variables.$baseVars, "dark"), 0.9);
+            display: none
+        }
+        &--link{
+            @include mixins.flexBox;
+            color: map-get(variables.$baseVars, "color");
+            text-decoration: none;
+            font-size: 220%;
+            transition: 0.2s all;
+
+            &:hover{
+                color: map-get(variables.$baseVars, "accent");
+            }
         }
     }
 

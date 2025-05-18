@@ -15,7 +15,7 @@ function Projects(){
     useEffect(() => {
         if(data.projects){
             setProjects(data.projects);
-            // setLoading(false);
+            setLoading(false);
         }
     }, [data]);
     
@@ -64,7 +64,7 @@ function Projects(){
                                 </article>
                             </a>
                         ) : projects.filter((item) => item.languages.includes(filter)).map((item, index) => 
-                                <a href={`/project?${new URLSearchParams({'id': index})}`} className="projects__item" key={index}>
+                                <a href={`/project?${new URLSearchParams({'name': item.title})}`} className="projects__item" key={index}>
                                     <img src={item.image} alt={item.title} className="projects__item--image" />
                                     <article className="projects__item--wrapper">
                                         <span className="projects__item--languages">

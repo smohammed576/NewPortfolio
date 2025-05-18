@@ -1,0 +1,30 @@
+@use "../../abstracts/variables";
+@use "../../abstracts/mixins";
+@use "../../abstracts/animations";
+
+.loadingAbout{
+    &__title{
+        width: 20rem;
+        background: rgba(map-get(variables.$baseVars, "dark"), 0.2);
+        height: 5rem;
+        border-radius: 0.4rem;
+        position: relative;
+        overflow: hidden;
+
+        &::after{
+            content: "";
+            position: absolute;
+            width: 5rem;
+            height: 100%;
+            background: rgba(map-get(variables.$baseVars, "dark"), 0.2);
+            @include animations.loadingText;
+            border-radius: 0.4rem;
+        }
+    }
+    &__info{
+        width: 45rem;
+        @include mixins.flexBox;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
