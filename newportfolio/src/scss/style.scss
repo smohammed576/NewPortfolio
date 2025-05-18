@@ -3,6 +3,10 @@
 @use "components/header/header.scss";
 @use "components/home/home.scss";
 @use "components/movies/movies.scss";
+@use "components/filters/filters.scss";
 @use "components/projects/projects.scss";
+@use "components/projects/loadingProjects.scss";
 @use "components/project/project.scss";
+@use "components/project/loadingProject.scss";
+@use "components/loading/loading.scss";
 @use "components/footer/footer.scss";

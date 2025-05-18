@@ -47,6 +47,13 @@
             "languages": ["REACT", "DOTNET", "SCSS"]
         },
         {
+            "title": "Stageblog",
+            "year": 3,
+            "image":"./images/stageblog.png",
+            "description": "This is a project that I'm very proud of. This is my stageblog, for school we had to build a blog website before we went of on our internships. We had to build this website so we could uploads our reflection reports. We had to make this with Wordpress but I hate Wordpress so I decided to make it with Laravel. When I started this project I was still pretty new to Laravel so there might be a few mistakes or wrong written code but I am still working on this project and I sometimes add a few new features. It is actually so fun now, a few months ago I redid the entire styling and it looks completely different from what I originally turned in at school. It's very pretty now. Unfortunatly I can't share the entire website until after both my internships. It's only accessable by the people I gave access to. It's responsive and I added a function that allows you to log movies and rate them. I also made a function to keep track of my internship hours, I thought that would be a fun thing to add so I did. And I also made a function that allows you to upload pictures to add so you can easily use them in the blog posts. I love this project so much. And yes, the styling is inspired by my favorite website, I just love it so much.",
+            "languages": ["LARAVEL", "SCSS"]
+        },
+        {
             "title": "POGO Webshop",
             "year": 1,
             "image": "./images/Screenshot (101).png",
@@ -408,6 +415,31 @@
             "year": 1999
         }
     ],
+    "contacts": [
+        {
+            "icon": "fa-brands fa-github",
+            "link": "https://www.github.com/smohammed576"
+        },
+        {
+            "icon": "fa-brands fa-linkedin",
+            "link": "https://www.linkedin.com/in/sara-mohammed-b2328a29b/"
+        },
+        {
+            "icon": "fa-solid fa-envelope",
+            "link": "mailto:smohammed0576@gmail.com"
+        }
+    ],
+    "filters": [
+        "REACT",
+        "SCSS",
+        "LARAVEL",
+        "PHP",
+        "DOTNET",
+        "JAVASCRIPT",
+        "TAILWIND",
+        "WORDPRESS"
+
+    ],
     "global": {
         "year": "Year",
         "about": "About",
@@ -417,8 +449,11 @@
         "lang": "Dutch",
         "hello": "Hi, I'm Sara",
         "intro": "This is my portfolio",
+        "view": "View portfolio",
         "click": "Click here",
+        "info": "A movie widget I made in a few hours. These are just some movies I like.",
         "movies": "Some movies I like",
-        "more": "More projects"
+        "more": "More projects",
+        "readmore": "Read more"
     }
 }

@@ -1,0 +1,24 @@
+@use "../../abstracts/variables";
+@use "../../abstracts/mixins";
+@use "../../abstracts/animations";
+
+.loading{
+    width: 100%;
+    @include mixins.flexBox;
+    height: 100vh;
+
+    &__item{
+        width: 5rem;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+        background: map-get(variables.$baseVars, "accent");
+        @include mixins.flexBox;
+        
+        @include animations.loading;
+        @for $i from 1 through 3{
+            &:nth-of-type(#{$i}){
+                animation-delay: $i / 3 + s;
+            }
+        }
+    }
+}

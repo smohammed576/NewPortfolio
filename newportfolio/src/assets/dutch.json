@@ -47,6 +47,13 @@
             "languages": ["REACT", "DOTNET", "SCSS"]
         },
         {
+            "title": "Stageblog",
+            "year": 3,
+            "image":"./images/stageblog.png",
+            "description": "Dit is een project waar ik enorm trots op ben. Het is mijn stageblog, we moesten voor school voor dat we op stage gingen een blog maken waar we onze reflectie verslagen konden uploaden. We moesten dit eigenlijk met Wordpress maken maar aangezien ik een hekel heb aan Wordpress heb ik deze gemaakt met Laravel. Toen ik met deze opdracht begon was ik nog best nieuw met Laravel dus er zullen vast wat dingen in de code zijn die wat minder goed zijn maar ik werk nog steeds aan deze blog een voeg af en toe nog wat dingen toe en verander soms nog dingen en het is oprecht zo leuk geworden. Ik heb een aantal maanden geleden de hele styling veranderd, en dan bedoel ik echt volledige styling dus heel veel veranderd maar het is zo mooi nu. Helaas kan ik het niet laten zien of toch niet tot ik klaar ben met beide stages. Het is nu alleen toegankelijk voor mensen die ik toegang geven heb. Het is responsive en ik heb een functie toegevoegd waar ik films kan loggen. Dus als ik nu een film ga kijken dan kan ik als ik klaar ben de film hier in een formulier invullen en dan komt deze boven aan mijn stageblog te zien met mijn rating en met hoevaak ik deze film gezien heb et cetera. Ook heb ik een functie gemaakt waar ik mijn stageuren kan bijhouden en ook heb ik laatst een functie gemaakt om images te kunnen uploaden om die dan vervolgens makkelijk te kunnen toevoegen aan mijn posts. Als ik oprecht zo lang doorpraten over dit project, I love it so much. En ja, het design is geinspireerd op mijn favoriete website want I just love it so much.",
+            "languages": ["LARAVEL", "SCSS"]
+        },
+        {
             "title": "POGO Webshop",
             "year": 1,
             "image": "./images/Screenshot (101).png",
@@ -408,6 +415,31 @@
             "year": 1999
         }
     ],
+    "contacts": [
+        {
+            "icon": "fa-brands fa-github",
+            "link": "https://www.github.com/smohammed576"
+        },
+        {
+            "icon": "fa-brands fa-linkedin",
+            "link": "https://www.linkedin.com/in/sara-mohammed-b2328a29b/"
+        },
+        {
+            "icon": "fa-solid fa-envelope",
+            "link": "mailto:smohammed0576@gmail.com"
+        }
+    ],
+    "filters": [
+        "REACT",
+        "SCSS",
+        "LARAVEL",
+        "PHP",
+        "DOTNET",
+        "JAVASCRIPT",
+        "TAILWIND",
+        "WORDPRESS"
+
+    ],
     "global": {
         "year": "Jaar",
         "about": "Over mij",
@@ -417,8 +449,11 @@
         "lang": "Engels",
         "hello": "Hey, Ik ben Sara",
         "intro": "Dit is mijn portfolio",
+        "view": "Bekijk portfolio",
         "click": "Klik hier",
+        "info": "Een film widget gemaakt in een paar uur. Dit zijn een paar films die ik leuk vind.",
         "movies": "Paar films die ik leuk vind",
-        "more": "Meer projecten"
+        "more": "Meer projecten",
+        "readmore": "Lees meer"
     }
 }

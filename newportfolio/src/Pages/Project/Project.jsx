@@ -2,6 +2,7 @@ import { useSearchParams } from "react-router-dom";
 import Header from "../../Components/Header/Header";
 import { useContext, useEffect, useState } from "react";
 import DataContext from "../../hooks/context/DataContext";
+import Loading from "../../Components/Loading/Loading";
 
 function Project(){
     const {data} = useContext(DataContext);
@@ -13,11 +14,11 @@ function Project(){
         if(data.projects){
             console.log(data);
             setProject(data.projects[searchParams.get("id")]);
-            setLoading(false);
+            // setLoading(false);
         }
     }, [data]);
 
-    return loading ? <><i className="fa-solid fa-spinner fa-spin"></i></> : (
+    return loading ? <Loading page="project"/> : (
         <>
             <Header page="project"/>
             <main className="main">

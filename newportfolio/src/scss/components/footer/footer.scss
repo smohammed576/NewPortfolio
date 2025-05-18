@@ -13,6 +13,6 @@
     &__text{
         @include mixins.flexBox;
         color: map-get(variables.$baseVars, "grey");
-        font-size: 80%;
+        font-size: 75%;
     }
 }

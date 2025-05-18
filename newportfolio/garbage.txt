@@ -1,0 +1,133 @@
+import Header from "../../Components/Header/Header";
+import { useContext, useEffect, useState } from "react";
+import DataContext from "../../hooks/context/DataContext";
+import Loading from "../../Components/Loading/Loading";
+import Filters from "../../Components/Filters/Filters";
+
+function Projects(){
+    const {data} = useContext(DataContext);
+    const [loading, setLoading] = useState(true);
+    const [filters, setFilters] = useState([]);
+
+    useEffect(() => {
+        if(data.projects){
+            setFilters([]);
+            setLoading(false);
+        }
+    }, [data]);
+
+    function clickFilter(event, item){
+        if(!event.target.checked){
+            setFilters(prev => [...prev, item]);
+
+        }
+        else{
+            setFilters(prev => prev.filter(i => i !== item));
+        }
+    }
+
+    const filtered = loading ? null : data.projects.filter(project => 
+        filters.length === 0 || filters.some(filter => project.languages.includes(filter))
+    );
+
+    console.log(filters)
+
+    return loading ? <Loading/> : (
+        <>
+            <Header page="projects"/>
+            <main className="main__projects">
+                <aside className="filters">
+                    <h3 className="filters__title">Filters</h3>
+                    <ul className="filters__list">
+                        {
+                            data.filters.map((item, index) => 
+                                <li className="filters__item" key={index}>
+                                    <input type="checkbox" onChange={(event) => clickFilter(event, item)} className="filters__item--checkbox" />
+                                    <p className="filters__item--name">{item}</p>
+                                </li>
+                            )
+                        }
+                    </ul>
+                </aside>
+                <section className="projects">
+                    {
+                        filtered.map((item, index) => 
+                            <a href={`/project?${new URLSearchParams({'id': index})}`} className="projects__item" key={index}>
+                                <img src={item.image} alt={item.title} className="projects__item--image" />
+                                <article className="projects__item--wrapper">
+                                    <span className="projects__item--languages">
+                                        {
+                                            item.languages.map((language, index) => 
+                                                <div className={`project__info--item project__info--item-${language}`} key={index}>{language}</div>
+                                            )
+                                        }
+                                    </span>
+                                    <span className="projects__item--info">
+                                        <h3 className="projects__item--title">{item.title}</h3>
+                                        <p className="projects__item--year">{item.year == 31 ? `${data.global.internship} 1` : `${data.global.year} ${item.year}`}</p>
+                                    </span>
+                                </article>
+                            </a>
+                        )
+                    }
+                </section>
+            </main>
+        </>
+    )
+}
+
+export default Projects;
+
+@use "../../abstracts/variables";
+@use "../../abstracts/mixins";
+
+.filters{
+    // background: map-get(variables.$baseVars, "dark");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+    padding: 2rem 4rem;
+
+    &__list{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 1rem;
+    }
+    
+    &__item{
+        // background: red;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        position: relative;
+
+        &--checkbox{
+            appearance: none;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background: rgba(map-get(variables.$baseVars, "background"), 0.4);
+
+            &:checked{
+                border: 0.2rem solid map-get(variables.$baseVars, "accent");
+                background: none;
+            }
+
+            &:focus{
+                outline: none;
+            }
+        }
+
+        &--name{
+            width: 100%;
+            font-size: 90%;
+            padding: 0.4rem 1rem;
+        }
+    }
+}

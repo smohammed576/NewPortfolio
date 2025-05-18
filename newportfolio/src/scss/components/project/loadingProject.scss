@@ -1,0 +1,71 @@
+@use "../../abstracts/variables";
+@use "../../abstracts/mixins";
+@use "../../abstracts/animations";
+
+.loadingProject{
+    &__return{
+        position: relative;
+        width: 30rem;
+        height: 2.5rem;
+        overflow: hidden;
+        background: rgba(map-get(variables.$baseVars, "dark"), 0.2);
+        &::after{
+            content: "";
+            position: absolute;
+            width: 5rem;
+            height: 2rem;
+            background: rgba(map-get(variables.$baseVars, "dark"), 0.2);
+            @include animations.loadingText;
+            border-radius: 0.4rem;
+        }
+    }
+    &__figure{
+        position: relative;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        background: rgba(map-get(variables.$baseVars, "dark"), 0.4);
+        &::after{
+            content: "";
+            position: absolute;
+            background: rgba(map-get(variables.$baseVars, "background"), 0.2);
+            height: 100%;
+            width: 10rem;
+            @include animations.loadingImage;
+        }
+    }
+
+    &__info{
+        &--title{
+            width: 20rem;
+        }
+        &--year{
+            width: 10rem;
+        }
+        &--figure{
+            width: 40rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            gap: 0.8rem;
+        }
+        &--text{
+            border-radius: 0.6rem;
+            width: 100%;
+            background: rgba(map-get(variables.$baseVars, "dark"), 0.2);
+            position: relative;
+            overflow: hidden;
+            height: 3rem;
+            
+            &::after{
+                content: "";
+                position: absolute;
+                width: 10rem;
+                background: rgba(map-get(variables.$baseVars, "dark"), 0.1);
+                height: 100%;
+                @include animations.loadingText;
+            }
+        }
+    }
+}

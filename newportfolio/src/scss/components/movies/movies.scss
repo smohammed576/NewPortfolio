@@ -6,6 +6,7 @@
     @include mixins.flexBox;
     flex-direction: column;
     gap: 2rem;
+    position: relative;
 
     &__heading{
         @include mixins.flexBox;
@@ -19,7 +20,51 @@
             gap: 1rem;
             font-weight: 600;
             color: map-get(variables.$baseVars, "color");
+            transition: 0.2s all;
+
+            &:hover{
+                cursor: pointer;
+                color: map-get(variables.$baseVars, "accent");
+            }
         }
+    }
+
+    &__info{
+        background: map-get(variables.$baseVars, "accent");
+        width: 2.5rem;
+        aspect-ratio: 1/1;
+        @include mixins.flexBox;
+        border-radius: 50%;
+        font-size: 70%;
+        position: absolute;
+        top: 7%;
+        right: 35%;
+
+        &--background{
+            background: rgba(map-get(variables.$baseVars, "dark"), 0.4);
+            width: 100%;
+            height: 100%;
+            top: 0;
+            padding: 2rem;
+            position: fixed;
+            z-index: 1;
+            @include mixins.flexBox;
+            transition: 0.4s all;
+        }
+
+        &--card{
+            background: map-get(variables.$baseVars, "background");
+            z-index: 1000;
+            height: 20rem;
+            @include mixins.flexBox;
+            padding: 4rem;
+            font-size: 90%;
+            border-radius: 0.4rem;
+        }
+    }
+
+    &__title{
+        @include mixins.smallTitle;
     }
 
     &__wrapper{

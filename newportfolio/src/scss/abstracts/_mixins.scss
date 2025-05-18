@@ -1,5 +1,46 @@
+@use "variables";
+
 @mixin flexBox{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@mixin screenheight{
+    min-height: calc(100vh - 12.4rem);
+}
+
+@mixin title{
+    font-size: 240%;
+    position: relative;
+
+    &::after{
+        content: "";
+        width: 15rem;
+        background: map-get(variables.$baseVars, "accent");
+        height: 3rem;
+        position: absolute;
+        bottom: 5%;
+        left: 20%;
+        z-index: -1;
+    }
+
+}
+
+
+@mixin smallTitle{
+    font-size: 160%;
+    position: relative;
+
+    &::after{
+        content: "";
+        width: 80%;
+        background: map-get(variables.$baseVars, "accent");
+        height: 3rem;
+        position: absolute;
+        bottom: -10%;
+        left: 35%;
+        z-index: -1;
+    }
+
 }

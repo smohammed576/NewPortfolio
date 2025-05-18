@@ -1,0 +1,80 @@
+@use "../../abstracts/variables";
+@use "../../abstracts/mixins";
+
+.filters{
+    width: 100%;
+    // border-bottom: 0.1rem solid map-get(variables.$baseVars, "accent");
+    padding: 2rem 0;
+    position: relative;
+
+    &__buttons{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 1rem;
+
+        &--filter{
+            background: rgba(map-get(variables.$baseVars, "dark"), 0.6);
+            color: white;
+            border: none;
+            font-family: inherit;
+            font-size: 100%;
+            font-weight: 500;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: 1rem;
+            padding: 0.4rem 2rem;
+            border-radius: 0.4rem;
+            width: 14rem;
+
+            &:focus{
+                outline: none;
+            }
+        }
+
+        &--reset{
+            background: rgba(map-get(variables.$baseVars, "dark"), 0.6);
+            color: white;
+            border: none;
+            font-family: inherit;
+            font-size: 100%;
+            padding: 0.4rem 2rem;
+            font-weight: 600;
+            border-radius: 0.4rem;
+            @include mixins.flexBox;
+        }
+    }
+
+    &__dropdown{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        background: map-get(variables.$baseVars, "dark");
+        width: 14rem;
+
+        &--item{
+            background: none;
+            border: none;
+            font-size: 90%;
+            padding: 1rem;
+            color: map-get(variables.$baseVars, "color");
+            width: 100%;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            font-family: inherit;
+
+            &:hover{
+                cursor: pointer;
+                background: map-get(variables.$baseVars, "accent");
+            }
+
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+}

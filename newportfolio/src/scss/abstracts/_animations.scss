@@ -1,0 +1,51 @@
+@keyframes loading{
+    from{
+        transform: translate3d(0,0,0);
+    }
+    to{
+        transform: translate3d(0, 10rem, 0);
+    }
+}
+
+@mixin loading{
+    animation-name: loading;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes loadingImage{
+    from{
+        width: 0%;
+        // margin-left: 0;
+    }
+    to{
+        width: 100%;
+        // margin-left: 100%;
+    }
+}
+
+@mixin loadingImage{
+    animation-name: loadingImage;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    // animation-timing-function: linear;
+}
+
+
+@keyframes loadingText{
+    from{
+        // width: 0%;
+        margin-left: 0;
+    }
+    to{
+        // width: 100%;
+        margin-left: 100%;
+    }
+}
+
+@mixin loadingText{
+    animation-name: loadingText;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    // animation-timing-function: linear;
+}

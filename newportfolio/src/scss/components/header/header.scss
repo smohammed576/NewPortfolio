@@ -2,15 +2,43 @@
 @use "../../abstracts/mixins";
 
 .header{
-    background: map-get(variables.$baseVars, "dark");
+    background: rgba(map-get(variables.$baseVars, "dark"), 0.8);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.4rem 4rem;
+    padding: 1.16rem 15rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 
     &__link{
         color: map-get(variables.$baseVars, "color");
         font-weight: 600;
         text-decoration: none;
+        font-size: 120%;
+    }
+
+    &__navigation{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0rem 15rem;
+        
+        &--item{
+            color: map-get(variables.$baseVars, "color");
+            text-decoration: none;
+            font-weight: 500;
+        }
+    }
+
+    &__button{
+        position: absolute;
+        right: 1rem;
+        border: none;
+        font-family: inherit;
+        font-size: 100%;
+        background: none;
+        color: map-get(variables.$baseVars, "color");
     }
 }
