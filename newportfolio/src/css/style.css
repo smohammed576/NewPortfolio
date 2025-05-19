@@ -775,10 +775,6 @@ body {
   cursor: pointer;
 }
 
-.loadingMovies {
-  background: red;
-}
-
 .work {
   display: flex;
   justify-content: center;

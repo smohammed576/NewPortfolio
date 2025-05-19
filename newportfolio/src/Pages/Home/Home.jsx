@@ -11,7 +11,6 @@ import Loading from "../../Components/Loading/Loading";
 function Home(){
     const {data} = useContext(DataContext);
     const [loading, setLoading] = useState(true);
-    const [index, setIndex] = useState(0);
 
     useEffect(() => {
         if(data.global){
@@ -19,7 +18,6 @@ function Home(){
         }
     }, [data]);
 
-    // return loading ? <main className="main"><i className="fa-solid fa-spinner fa-spin"></i></main> : (
     return loading ? <Loading/> : (
         <>
             <section className="heading">

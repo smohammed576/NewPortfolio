@@ -18,7 +18,7 @@ function About(){
             <p className="about__text">{data.about}</p>
             <span className="about__skills">
                 {
-                    data.skills.map((item, index) => <img src={item.image} alt={item.alt} key={index} className="about__skills--item" /> )
+                    data.skills.map((item, index) => <img src={item.image} alt={item.alt} key={index} className="about__skills--item" title={item.alt}/> )
                 }
             </span>
         </section>

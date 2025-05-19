@@ -35,7 +35,7 @@ function Work(){
                                 <div className="work__info--links">
                                     {
                                         data.projects[index].links.map((item, index) => 
-                                            <a href={item.link} className="work__info--links-item" key={index}>
+                                            <a href={item.link} className="work__info--links-item" target="_blank" key={index}>
                                                 {item.name}
                                                 <i className={`${item.icon} work__info--links-icon`}/>
                                             </a>

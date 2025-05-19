@@ -12,16 +12,6 @@ function LoadingProjects(){
                 )
             }
         </section>
-        // // <main className="main">
-        //     {/* <span className="filters">
-        //             <span className="filters__buttons">
-        //                 <button className="filters__buttons--filter">
-        //                     <i className="fa-solid fa-caret-down filters__buttons--filter-icon"></i>
-        //                     Filter
-        //                 </button>
-        //             </span>
-        //         </span> */}
-        // // </main>
     );
 }
 
