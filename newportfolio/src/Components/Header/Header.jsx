@@ -11,20 +11,47 @@ function Header(props){
         }
     }, [data]);
 
-    return loading ? <><i className="fa-solid fa-spinner fa-spin"></i></> : props.page === "home" ? (
+    return props.page === "home" ? (
         <header className="header">
             <nav className="header__navigation">
-                <a href="#about" className="header__navigation--item">{data.global.about}</a>
-                <a href="#projects" className="header__navigation--item">{data.global.projects}</a>
-                <a href="#contact" className="header__navigation--item">Contact</a>
+                {
+                    loading ? 
+                        
+                        Array.from({length: 3}, (_,index) => 
+                            <figure className="header__navigation--loading" key={index}></figure>    
+                        )
+                        
+                    : 
+                    <>
+                        <a href="#about" className="header__navigation--item">{data.global.about}</a>
+                        <a href="#projects" className="header__navigation--item">{data.global.projects}</a>
+                        <a href="#contact" className="header__navigation--item">Contact</a>
+                    </>
+                }
+                
             </nav>
-            <button onClick={() => setLanguage(isEnglish ? false : true)} className="header__button">{data.global.lang}</button>
-
+            {
+                loading ? 
+                    <figure className="header__button header__loading"></figure>
+                : 
+                <button onClick={() => setLanguage(isEnglish ? false : true)} className="header__button">
+                    <i className="fa-solid fa-earth-americas header__button--icon"/>
+                    {data.global.lang}
+                </button>
+            }
         </header>
     ) : (
-        <header className="header">
+        <header className="header header__projects">
             <a href="/" className="header__link">Portfolio</a>
-            <button onClick={() => setLanguage(isEnglish ? false : true)} className="header__button">{data.global.lang}</button>
+            {
+                loading ? 
+                    <figure className="header__button header__loading"></figure>
+                : 
+                <button onClick={() => setLanguage(isEnglish ? false : true)} className="header__button">
+                    <i className="fa-solid fa-earth-americas header__button--icon"/>
+                    {data.global.lang}
+                </button>
+            }
         </header>
     )
 }

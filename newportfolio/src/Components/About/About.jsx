@@ -16,6 +16,11 @@ function About(){
         <section id="about" className="about">
             <h2 className="home__title">{data.global.about}</h2>
             <p className="about__text">{data.about}</p>
+            <span className="about__skills">
+                {
+                    data.skills.map((item, index) => <img src={item.image} alt={item.alt} key={index} className="about__skills--item" /> )
+                }
+            </span>
         </section>
     )
 }

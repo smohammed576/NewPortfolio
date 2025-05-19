@@ -1,20 +1,46 @@
 @use "../../abstracts/variables";
 @use "../../abstracts/mixins";
+@use "../../abstracts/animations";
 
 .project{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    gap: 1rem;
+    gap: 4rem;
     width: 100%;
 
     &__return{
         font-size: 90%;
-        color: map-get(variables.$baseVars, "color");
+        color: lighten(map-get(variables.$baseVars, "accent"), 10%);
         text-decoration: none;
         font-weight: 500;
-        padding: 2rem 6rem;
+        padding: 1rem 5rem;
+        @include mixins.flexBox;
+        gap: 1rem;
+
+        &--loading{
+            position: relative;
+            overflow: hidden;
+            width: 20rem;
+            &::before{
+                content: "";
+                height: 3rem;
+                width: 100%;
+                border-radius: 0.4rem;
+                position: absolute;
+                background: rgba(map-get(variables.$baseVars, "grey"), 0.2);
+            }
+            
+            &::after{
+                content: "";
+                height: 3rem;
+                width: 2rem;
+                box-shadow: -1rem 0 0.8rem 0.1rem rgba(map-get(variables.$baseVars, "grey"), 0.1);
+                position: absolute;
+                @include animations.loadingText;
+            }
+        }
     }
     
     &__wrapper{
@@ -30,10 +56,9 @@
         height: 40rem;
         @include mixins.flexBox;
         position: relative;
-        transition: 0.2s all;
 
         &:hover &--wrapper{
-            display: flex;
+            opacity: 1;
         }
 
         &--image{
@@ -50,7 +75,8 @@
             @include mixins.flexBox;
             gap: 2rem;
             background: rgba(map-get(variables.$baseVars, "dark"), 0.9);
-            display: none
+            opacity: 0;
+            transition: 0.4s all;
         }
         &--link{
             @include mixins.flexBox;

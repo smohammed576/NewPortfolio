@@ -413,6 +413,30 @@
             "title": "10 things I hate about you",
             "image": "./images/10thingsihateaboutyou.webp",
             "year": 1999
+        },
+        {
+            "id": 18,
+            "title": "But, I'm a cheerleader",
+            "image": "https://filmhallen.nl/content/uploads/sites/2/2024/08/but-im-a-cheerleader-still.jpg",
+            "year": 1999
+        },
+        {
+            "id": 19,
+            "title": "Emily the Criminal",
+            "image": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/08/emily-the-criminal-feature.jpg",
+            "year": 2022
+        },
+        {
+            "id": 20,
+            "title": "Dead Poets Society",
+            "image": "https://images.bauerhosting.com/legacy/empire-tmdb/films/207/images/3mjgFRPcGfGrA6aQFsSMgYzJAbG.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
+            "year": 1989
+        },
+        {
+            "id": 19,
+            "title": "Bad Moms",
+            "image": "https://images.pathe-thuis.nl/6859_1920x1080.jpg",
+            "year": 2016
         }
     ],
     "contacts": [
@@ -440,14 +464,41 @@
         "WORDPRESS"
 
     ],
+    "skills": [
+        {
+            "image": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+            "alt": "REACT"
+        },
+        {
+            "image": "https://sass-lang.com/assets/img/styleguide/seal-color.png",
+            "alt": "SCSS"
+        },
+        {
+            "image": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png",
+            "alt": "LARAVEL"
+        },
+        {
+            "image": "https://static-00.iconduck.com/assets.00/php-icon-1024x1024-bqdbwlym.png",
+            "alt": "PHP"
+        },
+        {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png",
+            "alt": "JAVASCRIPT"
+        },
+        {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/2048px-.NET_Core_Logo.svg.png",
+            "alt": ".NET"
+        }
+    ],
     "global": {
         "year": "Jaar",
+        "class": "heading__text--introDutch",
         "about": "Over mij",
         "projects": "Projecten",
         "internship": "Stage",
         "return": "Terug naar projecten",
-        "lang": "Engels",
-        "hello": "Hey, Ik ben Sara",
+        "lang": "EN",
+        "hello": "Hey, ik ben Sara",
         "intro": "Dit is mijn portfolio",
         "view": "Bekijk portfolio",
         "click": "Klik hier",

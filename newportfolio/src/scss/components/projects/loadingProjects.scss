@@ -11,15 +11,15 @@
             border-radius: 1rem 1rem 0 0;
             position: relative;
             overflow: hidden;
+            background: rgba(map-get(variables.$baseVars, "grey"), 0.2);
             
             &::after{
                 content: "";
                 position: absolute;
-                background: rgba(map-get(variables.$baseVars, "background"), 0.8);
-                width: 4rem;
+                width: 100%;
                 height: 100%;
-                @include animations.loadingImage;
-                border-radius: 1rem 1rem 0 0;
+                box-shadow: -5rem 0 3rem 0.3rem rgba(map-get(variables.$baseVars, "grey"), 0.1);
+                @include animations.loadingText;
             }
         }
 
@@ -30,17 +30,17 @@
         &--text{
             width: 100%;
             height: 2rem;
-            background: rgba(map-get(variables.$baseVars, "background"), 0.8);
+            background: rgba(map-get(variables.$baseVars, "grey"), 0.2);
             border-radius: 0.2rem;
             position: relative;
             
             &::after{
                 content: "";
                 position: absolute;
-                width: 2rem;
                 height: 100%;
+                left: 0;
                 @include animations.loadingText;
-                background: rgba(map-get(variables.$baseVars, "dark"), 0.2);
+                box-shadow: -1rem 0 0.8rem 0.3rem rgba(map-get(variables.$baseVars, "grey"), 0.2);
             }
         }
     }

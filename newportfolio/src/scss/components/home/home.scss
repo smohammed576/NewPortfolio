@@ -1,12 +1,6 @@
 @use "../../abstracts/variables";
 @use "../../abstracts/mixins";
-
-.heading{
-    background: map-get(variables.$baseVars, "dark");
-    width: 100%;
-    height: 100vh;
-    @include mixins.flexBox;
-}
+@use "../../abstracts/animations";
 
 .home__title{
     @include mixins.title;

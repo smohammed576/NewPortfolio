@@ -1,5 +1,6 @@
 @use "../../abstracts/variables";
 @use "../../abstracts/mixins";
+@use "../../abstracts/animations";
 
 .header{
     background: rgba(map-get(variables.$baseVars, "dark"), 0.8);
@@ -30,15 +31,62 @@
             text-decoration: none;
             font-weight: 500;
         }
+
+        &--loading{
+            background: rgba(map-get(variables.$baseVars, "grey"), 0.2);
+            width:10rem;
+            height: 3rem;
+            border-radius: 0.4rem;
+            position: relative;
+            overflow: hidden;
+            &::after{
+                content: "";
+                width: 0.8rem;
+                height: 100%;
+                box-shadow: -1rem 0 0.8rem 0.4rem rgba(map-get(variables.$baseVars, "grey"), 0.2);
+                position: absolute;
+                @include animations.loadingText;
+            }
+        }
     }
 
     &__button{
         position: absolute;
-        right: 1rem;
-        border: none;
+        right: 4rem;
+        border: 0.1rem solid map-get(variables.$baseVars, "accent");
         font-family: inherit;
-        font-size: 100%;
+        font-size: 90%;
         background: none;
         color: map-get(variables.$baseVars, "color");
+        padding: 0.4rem 1rem;
+        @include mixins.flexBox;
+        gap: 0.6rem;
+        border-radius: 0.2rem;
+
+        &--icon{
+            font-size: 85%;
+        }
+    }
+
+    &__loading{
+        width: 6rem;
+        overflow: hidden;
+
+        &::before{
+            content: "";
+            width: 4rem;
+            height: 2rem;
+            background: rgba(map-get(variables.$baseVars, "grey"), 0.2);
+            border-radius: 0.2rem;
+        }
+        &::after{
+            content: "";
+            width: 1rem;
+            height: 2rem;
+            box-shadow: -1rem 0 0.8rem 0.4rem rgba(map-get(variables.$baseVars, "grey"), 0.2);
+            position: absolute;
+            @include animations.loadingText;
+            left: 1rem;
+        }
     }
 }

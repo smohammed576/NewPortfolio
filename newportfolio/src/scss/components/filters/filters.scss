@@ -3,57 +3,62 @@
 
 .filters{
     width: 100%;
-    // border-bottom: 0.1rem solid map-get(variables.$baseVars, "accent");
-    padding: 2rem 0;
-    position: relative;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
 
-    &__buttons{
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        position: relative;
+        min-width: 14rem;
+    }
+
+    &__button{
+        background: rgba(map-get(variables.$baseVars, "grey"), 0.2);
+        font-size: 100%;
+        border: none;
+        font-family: inherit;
         display: flex;
         justify-content: start;
         align-items: center;
         gap: 1rem;
+        font-weight: 600;
+        padding: 0.4rem 2rem;
+        border-radius: 0.4rem;
+        color: map-get(variables.$baseVars, "color");
+        text-transform: uppercase;
+        width: 100%;
 
-        &--filter{
-            background: rgba(map-get(variables.$baseVars, "dark"), 0.6);
-            color: white;
-            border: none;
-            font-family: inherit;
-            font-size: 100%;
-            font-weight: 500;
-            display: flex;
-            justify-content: start;
-            align-items: center;
-            gap: 1rem;
-            padding: 0.4rem 2rem;
-            border-radius: 0.4rem;
-            width: 14rem;
-
-            &:focus{
-                outline: none;
-            }
+        &:focus{
+            outline: none;
         }
-
-        &--reset{
-            background: rgba(map-get(variables.$baseVars, "dark"), 0.6);
-            color: white;
-            border: none;
-            font-family: inherit;
-            font-size: 100%;
-            padding: 0.4rem 2rem;
-            font-weight: 600;
-            border-radius: 0.4rem;
-            @include mixins.flexBox;
-        }
+    }
+    &__reset{
+        background: rgba(map-get(variables.$baseVars, "grey"), 0.2);
+        color: map-get(variables.$baseVars, "color");
+        border: none;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0.4rem 2rem;
+        font-weight: 600;
+        border-radius: 0.4rem;
+        @include mixins.flexBox;
     }
 
     &__dropdown{
+        top: 100%;
         position: absolute;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: start;
         background: map-get(variables.$baseVars, "dark");
-        width: 14rem;
+        width: 100%;
 
         &--item{
             background: none;

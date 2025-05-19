@@ -131,3 +131,42 @@ export default Projects;
         }
     }
 }
+
+
+    0%{content: " ";}
+    2%{content: " s";}
+    4%{content: " st";}
+    6%{content: " stu";}
+    8%{content: " stud";}
+    10%{content: " stude";}
+    12%{content: " studen";}
+    14%{content: " student";}
+    16%{content: " student.";}
+    18%{content: " student";}
+    20%{content: " studen";}
+    22%{content: " stude";}
+    24%{content: " stud";}
+    26%{content: " stu";}
+    28%{content: " st";}
+    30%{content: " s";}
+    32%{content: " ";}
+    34%{content: " s";}
+    36%{content: " st";}
+    38%{content: " sta";}
+    40%{content: " stag";}
+    42%{content: " stagi";}
+    44%{content: " stagia";}
+    46%{content: " stagiai";}
+    48%{content: " stagiair";}
+    50%{content: " stagiaire";}
+    52%{content: " stagiaire.";}
+    54%{content: " stagiaire";}
+    56%{content: " stagiair";}
+    58%{content: " stagiai";}
+    60%{content: " stagia";}
+    62%{content: " stagi";}
+    64%{content: " stag";}
+    66%{content: " sta";}
+    68%{content: " st";}
+    70%{content: " s";}
+    72%{content: " ";}

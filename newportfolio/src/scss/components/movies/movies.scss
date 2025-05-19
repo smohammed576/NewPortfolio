@@ -26,6 +26,10 @@
                 cursor: pointer;
                 color: map-get(variables.$baseVars, "accent");
             }
+
+            &:focus{
+                outline: none;
+            }
         }
     }
 
@@ -37,8 +41,8 @@
         border-radius: 50%;
         font-size: 70%;
         position: absolute;
-        top: 7%;
-        right: 35%;
+        top: -5%;
+        right: -5%;
 
         &--background{
             background: rgba(map-get(variables.$baseVars, "dark"), 0.4);
@@ -47,14 +51,14 @@
             top: 0;
             padding: 2rem;
             position: fixed;
-            z-index: 1;
+            z-index: 1001;
             @include mixins.flexBox;
             transition: 0.4s all;
         }
 
         &--card{
             background: map-get(variables.$baseVars, "background");
-            z-index: 1000;
+            z-index: 10000;
             height: 20rem;
             @include mixins.flexBox;
             padding: 4rem;
@@ -71,6 +75,7 @@
         @include mixins.flexBox;
         flex-direction: column;
         gap: 4rem;
+        position: relative;
     }
 
     &__item{

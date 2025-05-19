@@ -16,7 +16,7 @@
 
     &::after{
         content: "";
-        width: 15rem;
+        width: 100%;
         background: map-get(variables.$baseVars, "accent");
         height: 3rem;
         position: absolute;

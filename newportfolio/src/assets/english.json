@@ -440,13 +440,40 @@
         "WORDPRESS"
 
     ],
+    "skills": [
+        {
+            "image": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+            "alt": "REACT"
+        },
+        {
+            "image": "https://sass-lang.com/assets/img/styleguide/seal-color.png",
+            "alt": "SCSS"
+        },
+        {
+            "image": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png",
+            "alt": "LARAVEL"
+        },
+        {
+            "image": "https://static-00.iconduck.com/assets.00/php-icon-1024x1024-bqdbwlym.png",
+            "alt": "PHP"
+        },
+        {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png",
+            "alt": "JAVASCRIPT"
+        },
+        {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/2048px-.NET_Core_Logo.svg.png",
+            "alt": ".NET"
+        }
+    ],
     "global": {
         "year": "Year",
+        "class": "heading__text--intro",
         "about": "About",
         "projects": "Projects",
         "internship": "Internship",
         "return": "Back to projects",
-        "lang": "Dutch",
+        "lang": "NL",
         "hello": "Hi, I'm Sara",
         "intro": "This is my portfolio",
         "view": "View portfolio",
