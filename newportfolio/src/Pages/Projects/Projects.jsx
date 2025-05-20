@@ -1,8 +1,6 @@
 import Header from "../../Components/Header/Header";
 import { useContext, useEffect, useState } from "react";
 import DataContext from "../../hooks/context/DataContext";
-import Loading from "../../Components/Loading/Loading";
-import Filters from "../../Components/Filters/Filters";
 import Footer from "../../Components/Footer/Footer";
 import LoadingProjects from "../../Components/Loading/pages/LoadingProjects";
 
@@ -12,6 +10,7 @@ function Projects(){
     const [projects, setProjects] = useState([]);
     const [filter, setFilter] = useState('');
     const [toggle, setToggle] = useState(false);
+    document.title = "Projects | Portfolio";
 
     useEffect(() => {
         if(data.projects){

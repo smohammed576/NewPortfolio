@@ -18,9 +18,10 @@ function Project(){
             else{
                 setProject(data.projects.find((item) => item.title === searchParams.get("name")));
             }
+            document.title = `${project.title} | Portfolio`;
             setLoading(false);
         }
-    }, [data]);
+    }, [data, project]);
 
     return(
         <>
