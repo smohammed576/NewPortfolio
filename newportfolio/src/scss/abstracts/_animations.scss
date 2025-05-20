@@ -1,3 +1,5 @@
+@use "variables";
+
 @keyframes loading{
     from,
     20%,
@@ -73,7 +75,7 @@
 
 @mixin words{
     animation-name: words;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-fill-mode: forwards;
 }
 
@@ -87,35 +89,37 @@
     18%{content: " studen";}
     21%{content: " student";}
     24%{content: " student.";}
-    27%{content: " student";}
-    30%{content: " studen";}
-    33%{content: " stude";}
-    36%{content: " stud";}
-    39%{content: " stu";}
-    42%{content: " st";}
-    45%{content: " s";}
-    48%{content: " ";}
-    51%{content: " i";}
-    54%{content: " in";}
-    57%{content: " int";}
-    60%{content: " inte";}
-    63%{content: " inter";}
-    66%{content: " intern";}
-    69%{content: " intern.";}
-    72%{content: " intern";}
-    75%{content: " inter";}
-    78%{content: " inte";}
-    81%{content: " int";}
-    84%{content: " in";}
-    87%{content: " i";}
-    90%{content: " ";}
+    30%{content: " student";}
+    33%{content: " studen";}
+    36%{content: " stude";}
+    39%{content: " stud";}
+    42%{content: " stu";}
+    45%{content: " st";}
+    48%{content: " s";}
+    51%{content: " ";}
+    54%{content: " i";}
+    57%{content: " in";}
+    60%{content: " int";}
+    63%{content: " inte";}
+    66%{content: " inter";}
+    69%{content: " intern";}
+    72%{content: " intern.";}
+    81%{content: " intern";}
+    84%{content: " inter";}
+    87%{content: " inte";}
+    90%{content: " int";}
+    93%{content: " in";}
+    96%{content: " i";}
+    99%{content: " ";}
 }
 
 @mixin typing{
     animation-name: typing;
-    animation-duration: 8s;
-    animation-delay: 3s;
+    animation-duration: 6s;
+    animation-delay: 2s;
     animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    border-right: 0.3rem solid map-get(variables.$baseVars, "accent");
 }
 
 @keyframes typingDutch{
@@ -128,8 +132,8 @@
     18%{content: " studen";}
     21%{content: " student";}
     24%{content: " student.";}
-    27%{content: " student";}
-    30%{content: " studen";}
+    31%{content: " student";}
+    32%{content: " studen";}
     33%{content: " stude";}
     36%{content: " stud";}
     39%{content: " stu";}
@@ -143,8 +147,8 @@
     63%{content: " stagiai";}
     66%{content: " stagiair";}
     69%{content: " stagiaire";}
-    72%{content: " stagiaire.";}
-    75%{content: " stagiaire";}
+    70%{content: " stagiaire.";}
+    77%{content: " stagiaire";}
     78%{content: " stagiair";}
     81%{content: " stagiai";}
     84%{content: " stagia";}
@@ -158,9 +162,10 @@
 @mixin typingDutch{
     animation-name: typingDutch;
     animation-duration: 6s;
-    animation-delay: 3s;
+    animation-delay: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    border-right: 0.1rem solid map-get(variables.$baseVars, "accent");
 }
 
 @keyframes move{

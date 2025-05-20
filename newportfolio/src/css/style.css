@@ -146,70 +146,70 @@ body {
   24% {
     content: " student.";
   }
-  27% {
+  30% {
     content: " student";
   }
-  30% {
+  33% {
     content: " studen";
   }
-  33% {
+  36% {
     content: " stude";
   }
-  36% {
+  39% {
     content: " stud";
   }
-  39% {
+  42% {
     content: " stu";
   }
-  42% {
+  45% {
     content: " st";
   }
-  45% {
+  48% {
     content: " s";
   }
-  48% {
+  51% {
     content: " ";
   }
-  51% {
-    content: " i";
-  }
   54% {
-    content: " in";
+    content: " i";
   }
   57% {
-    content: " int";
-  }
-  60% {
-    content: " inte";
-  }
-  63% {
-    content: " inter";
-  }
-  66% {
-    content: " intern";
-  }
-  69% {
-    content: " intern.";
-  }
-  72% {
-    content: " intern";
-  }
-  75% {
-    content: " inter";
-  }
-  78% {
-    content: " inte";
-  }
-  81% {
-    content: " int";
-  }
-  84% {
     content: " in";
   }
+  60% {
+    content: " int";
+  }
+  63% {
+    content: " inte";
+  }
+  66% {
+    content: " inter";
+  }
+  69% {
+    content: " intern";
+  }
+  72% {
+    content: " intern.";
+  }
+  81% {
+    content: " intern";
+  }
+  84% {
+    content: " inter";
+  }
   87% {
-    content: " i";
+    content: " inte";
   }
   90% {
+    content: " int";
+  }
+  93% {
+    content: " in";
+  }
+  96% {
+    content: " i";
+  }
+  99% {
     content: " ";
   }
 }
@@ -241,10 +241,10 @@ body {
   24% {
     content: " student.";
   }
-  27% {
+  31% {
     content: " student";
   }
-  30% {
+  32% {
     content: " studen";
   }
   33% {
@@ -286,10 +286,10 @@ body {
   69% {
     content: " stagiaire";
   }
-  72% {
+  70% {
     content: " stagiaire.";
   }
-  75% {
+  77% {
     content: " stagiaire";
   }
   78% {
@@ -543,7 +543,7 @@ body {
   width: 100%;
   height: 100%;
   animation-name: words;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
 }
 .heading__text--intro::after {
@@ -552,9 +552,11 @@ body {
   margin-left: 1rem;
   height: 100%;
   animation-name: typing;
-  animation-duration: 8s;
-  animation-delay: 3s;
+  animation-duration: 6s;
+  animation-delay: 2s;
   animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  border-right: 0.3rem solid #6482AD;
 }
 .heading__text--introDutch {
   font-weight: 500;
@@ -566,7 +568,7 @@ body {
   width: 100%;
   height: 100%;
   animation-name: words;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
 }
 .heading__text--introDutch::after {
@@ -576,9 +578,10 @@ body {
   height: 100%;
   animation-name: typingDutch;
   animation-duration: 6s;
-  animation-delay: 3s;
+  animation-delay: 2s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+  border-right: 0.1rem solid #6482AD;
 }
 .heading__button {
   border: 0.2rem solid #6482AD;

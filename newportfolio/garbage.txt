@@ -170,3 +170,192 @@ export default Projects;
     68%{content: " st";}
     70%{content: " s";}
     72%{content: " ";}
+
+
+    @keyframes loading{
+    from,
+    20%,
+    53%,
+    to{
+        transform: translate3d(0,0,0);
+    }
+    40%{
+        transform: translate3d(0,-3rem,0) scaleY(1.1);
+    }
+}
+
+@mixin loading{
+    animation-name: loading;
+    animation-duration: 1.1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes loadingImage{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+@mixin loadingImage{
+    animation-name: loadingImage;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes loadingText{
+    from{
+        margin-left: 0;
+    }
+    to{
+        margin-left: 100%;
+    }
+}
+
+@mixin loadingText{
+    animation-name: loadingText;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes words{
+    0%{content: "";}
+    5%{content: "S";}
+    10%{content: "So";}
+    15%{content: "Sof";}
+    20%{content: "Soft";}
+    25%{content: "Softw";}
+    30%{content: "Softwa";}
+    35%{content: "Softwar";}
+    40%{content: "Software";}
+    45%{content: "Software ";}
+    50%{content: "Software d";}
+    55%{content: "Software de";}
+    60%{content: "Software dev";}
+    65%{content: "Software deve";}
+    70%{content: "Software devel";}
+    75%{content: "Software develo";}
+    80%{content: "Software develop";}
+    95%{content: "Software develope";}
+    100%{content: "Software developer";}
+}
+
+@mixin words{
+    animation-name: words;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes typing{
+    0%{content: " ";}
+    3%{content: " s";}
+    6%{content: " st";}
+    9%{content: " stu";}
+    12%{content: " stud";}
+    15%{content: " stude";}
+    18%{content: " studen";}
+    21%{content: " student";}
+    24%{content: " student.";}
+    27%{content: " student";}
+    30%{content: " studen";}
+    33%{content: " stude";}
+    36%{content: " stud";}
+    39%{content: " stu";}
+    42%{content: " st";}
+    45%{content: " s";}
+    48%{content: " ";}
+    51%{content: " i";}
+    54%{content: " in";}
+    57%{content: " int";}
+    60%{content: " inte";}
+    63%{content: " inter";}
+    66%{content: " intern";}
+    69%{content: " intern.";}
+    72%{content: " intern";}
+    75%{content: " inter";}
+    78%{content: " inte";}
+    81%{content: " int";}
+    84%{content: " in";}
+    87%{content: " i";}
+    90%{content: " ";}
+}
+
+@mixin typing{
+    animation-name: typing;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    border-right: 0.1rem solid red;
+}
+
+@keyframes typingDutch{
+    0%{content: " s";}
+    3%{content: " s";}
+    6%{content: " st";}
+    9%{content: " stu";}
+    12%{content: " stud";}
+    15%{content: " stude";}
+    18%{content: " studen";}
+    21%{content: " student";}
+    24%{content: " student.";}
+    31%{content: " student";}
+    32%{content: " studen";}
+    33%{content: " stude";}
+    36%{content: " stud";}
+    39%{content: " stu";}
+    42%{content: " st";}
+    45%{content: " s";}
+    48%{content: " st";}
+    51%{content: " sta";}
+    54%{content: " stag";}
+    57%{content: " stagi";}
+    60%{content: " stagia";}
+    63%{content: " stagiai";}
+    66%{content: " stagiair";}
+    69%{content: " stagiaire";}
+    70%{content: " stagiaire.";}
+    77%{content: " stagiaire";}
+    78%{content: " stagiair";}
+    81%{content: " stagiai";}
+    84%{content: " stagia";}
+    87%{content: " stagi";}
+    90%{content: " stag";}
+    93%{content: " sta";}
+    96%{content: " st";}
+    99%{content: " s";}
+}
+
+@mixin typingDutch{
+    animation-name: typingDutch;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    border-right: 0.1rem solid red;
+}
+
+@keyframes move{
+    0%,
+    100% {
+      transform: translateY(0) translateX(0) scale(1);
+    }
+    25% {
+      transform: translateY(-2rem) translateX(1.5rem) scale(1.1);
+    }
+    50% {
+      transform: translateY(2rem) translateX(-1.5rem) scale(0.9);
+    }
+    75% {
+      transform: translateY(-1rem) translateX(-2rem) scale(1.05);
+    }
+  }
+  
+@mixin move{
+    animation: move 8s ease-in-out infinite;
+}
