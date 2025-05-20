@@ -80,6 +80,10 @@
                 cursor: pointer;
                 color: map-get(variables.$baseVars, "accent");
             }
+
+            &:focus{
+                outline: none;
+            }
         }
     }
 
@@ -95,6 +99,9 @@
 
         &:hover{
             color: map-get(variables.$baseVars, "accent");
+        }
+        &:focus{
+            outline: none;
         }
     }
 }

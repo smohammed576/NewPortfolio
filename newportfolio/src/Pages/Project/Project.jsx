@@ -12,7 +12,6 @@ function Project(){
 
     useEffect(() => {
         if(data.projects){
-            console.log(data);
             if(searchParams.get("id")){
                 setProject(data.projects[searchParams.get("id")]);
             }
